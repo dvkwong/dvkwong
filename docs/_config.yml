@@ -262,7 +262,7 @@ kramdown:
 defaults:
   -
     scope:
-      path: "_posts"
+      path: ""
       type: "posts"
     values:
       layout: "post"
