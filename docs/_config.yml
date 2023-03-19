@@ -1,0 +1,65 @@
+remote_theme: daattali/beautiful-jekyll@5.0.0
+
+title: dvkwong
+description: Blog
+logo: "/assets/images/Ryu.jpg"
+search: true
+
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-include-cache
+
+include:
+  - _pages
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+# Site Author
+author:
+  name             : "David Wong"
+  avatar           : "/assets/images/Ryu.jpg"
+  bio              : ""
+  location         : "Auckland, New Zealand"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: ""
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://dvkwong.github.io/haduoken"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: ""
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dvkwong/panama"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+# Disable RSS in footer
+atom_feed:
+  hide: true
