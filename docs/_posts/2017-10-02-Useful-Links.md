@@ -17,3 +17,5 @@ tags:
 [Jekyll Comments using Azure Functions](https://damieng.com/blog/2018/05/28/wordpress-to-jekyll-comments)
 
 [matthuisman.nz](https://www.matthuisman.nz/2021/02/new-zealand-apks-for-sideloading.html) for Android TV apks
+
+[realfavicongenerator](https://realfavicongenerator.net/)
