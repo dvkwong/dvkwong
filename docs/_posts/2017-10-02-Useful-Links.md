@@ -19,3 +19,5 @@ tags:
 [matthuisman.nz](https://www.matthuisman.nz/2021/02/new-zealand-apks-for-sideloading.html) for Android TV apks
 
 [realfavicongenerator](https://realfavicongenerator.net/)
+
+[Unifi Configure IoT network](https://www.nodinrogers.com/post/2022-04-09-iot-different-vlan/)
