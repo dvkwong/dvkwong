@@ -1,9 +1,11 @@
 # Learning
 
+* [Freecodecamp](https://www.freecodecamp.org/) - Free
+* [Github](https://github.com)
+* [Microsoft learn C#](https://dotnet.microsoft.com/en-us/learn/csharp) - Free
 * [Code Academy](https://www.codecademy.com) training courses - Free / Paid
 * [Code.org](https://code.org/learn) - Free / Paid
 * [Coursera](https://www.coursera.org/) - Free / Paid
-* [Microsoft learn C#](https://dotnet.microsoft.com/en-us/learn/csharp) - Free
 
 # Tools
 
@@ -11,7 +13,7 @@
 
 # Salary Guides - NZ
 
-[Trademe](https://www.trademe.co.nz/c/jobs/product/salary-guide)
+[Trademe](https://www.trademe.co.nz/c/jobs/product/salary-guide) - [IT](https://www.trademe.co.nz/a/jobs/salary-guide/it)
 
 # Salary Guides - AUS
 
