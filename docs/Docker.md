@@ -17,7 +17,7 @@ cd docs
 docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app ruby:2.7 bundle install
 
 # Build Docker image:
-docker-compose -f docker-compose.yml build
+docker-compose -f ./docker/docker-compose.build-image.yml build
 
 # Preview website
 docker-compose -f ./docker/docker-compose.default.yml up    
