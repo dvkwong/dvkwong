@@ -1,4 +1,4 @@
-remote_theme: daattali/beautiful-jekyll@5.0.0
+remote_theme: mmistakes/minimal-mistakes
 
 ###########################################################
 ### Welcome to Beautiful Jekyll!
@@ -12,7 +12,7 @@ remote_theme: daattali/beautiful-jekyll@5.0.0
 ############################
 
 # Name of website
-title: ""
+title: "DW Blog"
 
 # Your name to show in the footer
 author: David Wong
@@ -252,7 +252,7 @@ date_format: "%B %-d, %Y"
 timezone: "Pacific/Auckland"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:categories/:title/
 paginate: 5
 
 kramdown:
