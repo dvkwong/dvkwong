@@ -1,5 +1,4 @@
 ---
-title: Midjourney
 categories:
   - AI
 tags:

@@ -1,3 +1,11 @@
+---
+categories:
+    - Firmware
+tags:
+    - Lineage
+toc: true    
+---
+
 
 ## Adb / Fastboot
 

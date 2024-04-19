@@ -1,4 +1,6 @@
 ---
+categories:
+  - OS
 tags:
   - Virtual Box
   - Mac OSX

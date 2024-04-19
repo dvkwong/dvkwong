@@ -1,3 +1,12 @@
+---
+categories:
+    - Media
+    - Helpful Links
+tags:
+    - Movies
+    - Books
+toc: true    
+---
 
 # Fiction
 

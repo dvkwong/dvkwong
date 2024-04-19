@@ -1,7 +1,6 @@
 ---
-title: Docker container for Jekyll 
 categories:
-  - posts
+  - OS
 tags:
   - Docker
   - Containers

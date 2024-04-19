@@ -1,3 +1,11 @@
+---
+categories:
+    - Career
+tags:
+    - Developer
+toc: true    
+---
+
 # Learning
 
 * [Freecodecamp](https://www.freecodecamp.org/) - Free

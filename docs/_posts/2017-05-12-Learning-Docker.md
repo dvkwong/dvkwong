@@ -1,7 +1,6 @@
 ---
-title: Learning Docker
 categories:
-  - posts
+  - OS
 tags:
   - Docker
 ---

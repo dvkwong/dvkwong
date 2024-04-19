@@ -1,9 +1,9 @@
 ---
 title: VirtualBox Nas Headless
 categories:
-  - posts
+  - OS
 tags:
-  - Links  
+  - Virtualisation
 ---
 
 ```cs

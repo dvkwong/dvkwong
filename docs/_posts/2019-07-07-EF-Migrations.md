@@ -1,7 +1,6 @@
 ---
-title: EF Migrations
 categories:
-  - posts
+  - Development
 tags:
   - Database
 ---

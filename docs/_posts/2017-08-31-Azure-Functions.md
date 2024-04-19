@@ -1,7 +1,6 @@
 ---
-title: Azure Functions
 categories:
-  - posts
+  - Cloud
 tags:
   - Azure  
 ---

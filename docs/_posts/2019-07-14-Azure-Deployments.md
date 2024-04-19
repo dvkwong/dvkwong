@@ -1,7 +1,7 @@
 ---
 title: Azure Deployments
 categories:
-  - posts
+  - Cloud
 tags:
   - Azure
 ---

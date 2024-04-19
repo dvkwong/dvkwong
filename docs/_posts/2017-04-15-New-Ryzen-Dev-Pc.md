@@ -1,9 +1,10 @@
 ---
 title: Ryzen
 categories:
-  - posts
+  - Hardware
 tags:
   - Ryzen
+  - PC
 ---
 
 After many years of using a laptop I have decided to go back to a desktop pc.

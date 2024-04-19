@@ -1,3 +1,10 @@
+---
+categories:
+    - Gadgets
+tags:
+    - CCTV
+---
+
 Recommendations:
 
 * ONVIF

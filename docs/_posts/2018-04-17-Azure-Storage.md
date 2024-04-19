@@ -1,7 +1,6 @@
 ---
-title: Azure Storage
 categories:
-  - posts
+  - Cloud
 tags:
   - Azure
 ---

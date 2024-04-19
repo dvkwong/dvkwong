@@ -1,9 +1,6 @@
 ---
-title: Useful links
 categories:
-  - posts
-tags:
-  - Links
+  - Helpful Links
 ---
 
 [Odd Prints](https://www.oddprints.com/) - Create passport photos simply and free!!
