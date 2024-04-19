@@ -60,33 +60,21 @@ plugins:
 author:
   name   : "David Wong"
   avatar : "/assets/images/ryu-avatar.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Software Developer, dad, chess player and tinkerer."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://dvkwong.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/dvkwong"    
 
 footer:
   links:
-    - label: "X"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://x.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dvkwong"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+    
 defaults:
   # _posts
   - scope:
