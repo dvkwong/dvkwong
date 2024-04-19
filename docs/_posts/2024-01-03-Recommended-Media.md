@@ -1,7 +1,6 @@
 ---
 categories:
-    - Media
-    - Helpful Links
+    - Links
 tags:
     - Movies
     - Books

@@ -1,6 +1,6 @@
 ---
 categories:
-  - Development
+  - Coding
 tags:
   - Database
 ---
