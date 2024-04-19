@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   David Wong - Software Developer, Dad, chess player and tinkerer.
 twitter_username: username
 github_username: dvkwong
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: neon
 search: true
 
 # Build settings
