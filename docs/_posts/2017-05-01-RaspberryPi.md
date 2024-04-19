@@ -1,7 +1,7 @@
 ---
 title: Raspberry PI
 categories:
-  - posts
+  - IoT
 tags:
   - Raspberry PI
 ---

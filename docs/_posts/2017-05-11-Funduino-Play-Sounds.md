@@ -1,7 +1,7 @@
 ---
 title: Funduino Nano Play Sounds
 categories:
-  - posts
+  - IoT
 tags:
   - Arduino
 ---

@@ -1,9 +1,9 @@
 ---
 title: Update Xiaomi Firmware
 categories:
-  - posts
+  - IoT
 tags:
-  - Links  
+  - Xiaomi  
 ---
 
 [Fastboot method to update firmware](https://forum.xda-developers.com/showpost.php?p=72402783&postcount=15)

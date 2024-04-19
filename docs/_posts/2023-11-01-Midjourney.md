@@ -1,3 +1,11 @@
+---
+title: Midjourney
+categories:
+  - AI
+tags:
+  - Images
+---
+
 # Midjourney prompts
 
 ## Tattoo of Ryu intertwined with dragon - Anime
