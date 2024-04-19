@@ -4,7 +4,9 @@ title: "About"
 subtitle: Software Developer / Dad
 ---
 
-My name is David Wong. I have the following qualities:
-
-- I love developing software
-- I love playing boards games Splendor, Ticket to Ride, Catan and Chess
+- Software devloper since 2000's
+- Continual Learning
+- Favourite boards games 
+  - Chess
+  - Splendor
+  - Ticket to Ride
