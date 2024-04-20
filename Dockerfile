@@ -3,7 +3,7 @@ FROM ruby:3.3.0-alpine3.19
 ENV SETUPDIR=/setup
 WORKDIR ${SETUPDIR}
 ARG GEMFILE_DIR=.
-COPY $GEMFILE_DIR/GemFile* $GEMFILE_DIR/packages* .
+COPY $GEMFILE_DIR/Gemfile* $GEMFILE_DIR/packages* .
 
 # Install build dependencies
 RUN set -eux; \
