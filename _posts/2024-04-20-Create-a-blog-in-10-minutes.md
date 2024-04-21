@@ -21,10 +21,16 @@ The blog will be hosted on [Github](https://github.com) and will use the [Minima
 
 1. Signup to [Github](https://github.com)
 2. Click [Minimal Mistakes remote theme starter](https://github.com/mmistakes/mm-github-pages-starter/generate) link.
-3. Enter a 'Repository Name' and click 'Create Repository'
-4. Done.
+3. Enter a `Repository Name` and click `Create Repository`
 
 ![Github Create Repository](/assets/posts/2024/GithubCreateRepository.png)
+
+4. Next go to Settings -> Pages and set the branch to `master` and `root` and click save. 
+
+![Github Settings Pages](/assets/posts/2024/GithubSettingsPages.png)
+
+5. After 30 seconds you will see your site will be live eg https://yourName.github.io/yourBlogName/
+6. Done
 
 # Updating your blog
 
