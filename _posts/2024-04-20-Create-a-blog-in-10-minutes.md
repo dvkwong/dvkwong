@@ -69,3 +69,13 @@ In vscode type ctrl + ` to open a terminal
 git config user.email "your email"
 git config user.name "your name"
 ```
+
+# Adding a custom domain name!
+
+Having your own personalised domain name means you can protect and manage your own branding.
+
+Github allows you host your blog with its own custom domain name eg dvkwong.com and there are
+ many companies that sell domain names for a nominal fee as low as $10 US to $30 US per year.
+
+I have used [Namecheap](https://www.namecheap.com/) in the past, however 
+I am switching to [Cloudflare](https://www.cloudflare.com/) as it is even cheaper!
