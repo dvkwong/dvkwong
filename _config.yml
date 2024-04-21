@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "David Wong"
   avatar : "/assets/images/ryu-avatar.png"
-  bio    : "Software Developer, Dad, chess player and tinkerer."
+  bio    : "Software Developer, Dad, Chess player and Tinkerer."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
