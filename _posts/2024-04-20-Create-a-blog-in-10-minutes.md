@@ -77,5 +77,7 @@ Having your own personalised domain name means you can protect and manage your o
 Github allows you host your blog with its own custom domain name eg dvkwong.com and there are
  many companies that sell domain names for a nominal fee as low as $10 US to $30 US per year.
 
-I have used [Namecheap](https://www.namecheap.com/) in the past, however 
-I am switching to [Cloudflare](https://www.cloudflare.com/) as it is even cheaper!
+I have used [Namecheap](https://www.namecheap.com/) (easier) in the past, however 
+I am switching to [Cloudflare](https://www.cloudflare.com/) (advanced) as it is even cheaper due to no markups!
+
+![Github Custom Domain](/assets/posts/2024/GithubCustomDomain.png)
