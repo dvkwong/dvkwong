@@ -4,13 +4,13 @@ categories:
 toc: true
 ---
 
-# Deal Websites
+## Deal Websites
 
 ![Grocer App](/assets/posts/2024/Grocer.webp){: .align-right}
 
-* [Cheapies](https://www.cheapies.nz/) - Sign up for the newsletter or book mark the site for great bargins and deals
-* [Grocer](https://grocer.nz/) - phone app to compare multiple supermarkets Woolworths, Paknsave etc at once.
-* [Pricespy](https://pricespy.co.nz/) - Compare appliances across multiple onine stores and show historical prices to know if its really a sale!
+* [Grocer](https://grocer.nz/) - compare multiple local supermarket prices Woolworths, Paknsave. Is it really 'Low low prices'?!
+* [Cheapies](https://www.cheapies.nz/) - Awesome site with bargins and deals sourced from other liked minded cheapies.
+* [Pricespy](https://pricespy.co.nz/) - Compare appliances across multiple onine stores and show historical prices. Is it really on sale!
 
 ## Finance / Accounting
 
@@ -29,14 +29,14 @@ toc: true
 
 ### Electricity
 
-* [Contact](https://contact.co.nz/residential) - Free Power 9pm to midnight!
+* [Contact](https://contact.co.nz/residential) - Free Power plans eg 9pm to midnight!
 * [Frank Energy](https://frankenergy.co.nz/our-rates) - Low user still has 69c daily charge, limited time! $50 referral.
 
 ## Tips
 
 ### Pricematch
 
-* Mitre 10 and Bunnings price match and 15% off! Other retailers will also price match Noel Leemings, Warehouse, Harvey Norman, JB Hifi etc.
+* Mitre 10 and Bunnings price match and 15% off! Other retailers will also price match Briscoes, Noel Leemings, Warehouse, Harvey Norman, JB Hifi etc. 
 
 ### Apple subscriptions
 
