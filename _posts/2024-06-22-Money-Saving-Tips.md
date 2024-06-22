@@ -8,7 +8,7 @@ toc: true
 
 ![Grocer App](/assets/posts/2024/Grocer.webp){: .align-right}
 
-* [Grocer](https://grocer.nz/) - compare multiple local supermarket prices Woolworths, Paknsave. Is it really 'Low low prices'?!
+* [Grocer](https://grocer.nz/) - compare multiple local supermarket prices Woolworths, Paknsave etc. Is it really 'Low low prices'?!
 * [Cheapies](https://www.cheapies.nz/) - Awesome site with bargins and deals sourced from other liked minded cheapies.
 * [Pricespy](https://pricespy.co.nz/) - Compare appliances across multiple onine stores and show historical prices. Sale or just normal prices?!
 
