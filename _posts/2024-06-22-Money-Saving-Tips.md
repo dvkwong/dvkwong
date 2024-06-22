@@ -6,11 +6,11 @@ toc: true
 
 # Deal Websites
 
+![Grocer App](/assets/posts/2024/Grocer.webp){: .align-right}
+
 * [Cheapies](https://www.cheapies.nz/) - Sign up for the newsletter or book mark the site for great bargins and deals
 * [Grocer](https://grocer.nz/) - phone app to compare multiple supermarkets Woolworths, Paknsave etc at once.
 * [Pricespy](https://pricespy.co.nz/) - Compare appliances across multiple onine stores and show historical prices to know if its really a sale!
-
-![Grocer App](/assets/posts/2024/Grocer_353x512.webp){: .align-right}
 
 ## Finance / Accounting
 
@@ -40,6 +40,8 @@ toc: true
 
 ### Apple subscriptions
 
+![Apple Subscriptions](/assets/posts/2024/AppleSubscriptions.webp){: .align-right}
+
 * Apple mobile makes it easier to start and stop subscriptions eg Sky Sport Now, Prime TV, Disney etc. As we all know these services like to make it hard to cancel! 
 
 So as a pro tip with streaming services I like to:
@@ -51,6 +53,3 @@ So as a pro tip with streaming services I like to:
 5. If they do you can re-subscribe quickly from Apple subscriptions.
 
 > Even if you don't have Apple cancelling subscriptions ahead of time is still a good tip
-
-![Apple Subscriptions](/assets/posts/2024/AppleSubscriptions_305x512.webp){: .align-right}
-
