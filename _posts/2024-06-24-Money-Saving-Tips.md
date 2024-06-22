@@ -1,6 +1,7 @@
 ---
 categories:
-  - money
+  - Savings
+toc: true
 ---
 
 # Deal Websites
