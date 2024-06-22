@@ -1,6 +1,6 @@
 ---
 categories:
-  - Budgeting
+  - money
 ---
 
 # Deal Websites
