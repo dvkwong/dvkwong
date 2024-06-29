@@ -10,11 +10,11 @@ toc: true
 
 1. Caramelise below ingrediants. 
 
-* 1 Tablespoon olive oil
-* 2 tablespoons balsamic vinegar
-* 2 tablespoons brown sugar
-* 1 sliced red onion
-* 2 sliced red peppers. 
+* 1 tablespoon `olive oil`
+* 2 tablespoons `balsamic vinegar`
+* 2 tablespoons `brown sugar`
+* 1 sliced `red onion`
+* 2 sliced `red peppers`. 
 
 2. Add to 250 grams cooked Orzo or rissoni pasta.
 3. Add flesh of `2 chopped tomatoes` with seeds removed.
@@ -29,12 +29,12 @@ toc: true
 
 ### Marsic brothers fish shop
 
-[Marsic brothers fish shop](https://www.facebook.com/MarsicFishShop/) in for the best smoked fish!<br/>
+[Marsic brothers fish shop](https://www.facebook.com/MarsicFishShop/) for the best smoked fish!<br/>
 [47 Mayfair Place, Glen Innes](https://maps.app.goo.gl/X9tWnJeMtZuRGzMJ9)
 
 ### Nicola John's pharmacy 
 
-[Nicola John's pharmacy](https://www.probiotics.co.nz/index.php?route=common/home) probiotics shop<br/>
+[Nicola John's pharmacy](https://www.probiotics.co.nz/index.php?route=common/home) for probiotics.<br/>
 [37 Mayfair Place, Glen Innes](https://maps.app.goo.gl/N4bpPSjXy4uoU1h87)
 
 ### Drury Meats
