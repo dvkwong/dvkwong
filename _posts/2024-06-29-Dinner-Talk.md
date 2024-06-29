@@ -27,22 +27,22 @@ toc: true
 
 ## Shops
 
-### Marsic brothers fish shop
+### [Marsic brothers fish shop](https://www.facebook.com/MarsicFishShop/)
 
-[Marsic brothers fish shop](https://www.facebook.com/MarsicFishShop/) for the best smoked fish!<br/>
+For the best smoked fish!<br/>
 [47 Mayfair Place, Glen Innes](https://maps.app.goo.gl/X9tWnJeMtZuRGzMJ9)
 
-### Nicola John's pharmacy 
+### [Nicola John's pharmacy](https://www.probiotics.co.nz/index.php?route=common/home) 
 
-[Nicola John's pharmacy](https://www.probiotics.co.nz/index.php?route=common/home) for probiotics.<br/>
+For probiotics and other health remedies.<br/>
 [37 Mayfair Place, Glen Innes](https://maps.app.goo.gl/N4bpPSjXy4uoU1h87)
 
-### Drury Meats
+### [Drury Meats](https://www.drurymeats.co.nz/)
 
-[Drury Meats](https://www.drurymeats.co.nz/) thick cuts of meat ready for the BBQ eg Scotch Fillet, T-Bone, Tomahawks etc at reasonable prices.<br/>
+Thick cuts of meat ready for the BBQ eg Scotch Fillet, T-Bone, Tomahawks etc at reasonable prices.<br/>
 [232a Great South Road, Drury](https://maps.app.goo.gl/JjCE4FuNXzk4dfXf7)
 
-### Franklin Country Meats
+### [Franklin Country Meats](https://franklincountrymeats.com/) 
 
-[Franklin Country Meats](https://franklincountrymeats.com/) a bit pricier than Drury Meats however they did sell Picanha ([Hellabies](https://wilsonhellaby.co.nz/))<br/>
+A bit pricier than Drury Meats however they did sell Picanha (supplied by [Hellabies](https://wilsonhellaby.co.nz/))<br/>
 [187 Manukau Road, Pukekohe](https://maps.app.goo.gl/fhaUfVig8HXrC7JE8)
