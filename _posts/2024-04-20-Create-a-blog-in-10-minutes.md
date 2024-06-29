@@ -6,7 +6,9 @@ tags:
 toc: true
 ---
 
-**Easily** create your own free blog in less than 10 mins!
+> This guide is for people who have are comfortable with computers :)
+
+**Easily** create your own free blog in less than 10 mins! 
 
 The blog will be hosted on [Github](https://github.com) and will use the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) theme.
 
