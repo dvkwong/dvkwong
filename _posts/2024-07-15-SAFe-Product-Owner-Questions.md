@@ -6,16 +6,16 @@ toc: true
 
 ## What is one responsibility area of a Product Owner?
 
-[] Getting and applying feedback
-[] Getting Solutions built
-[X] Getting value to and from the Customer
-[] Getting strategy and Vision into roadmaps
+- [] Getting and applying feedback
+- [] Getting Solutions built
+- [X] Getting value to and from the Customer
+- [] Getting strategy and Vision into roadmaps
 
 ## What is one benefit of PI Planning?
 
-[] It allows leaders to get their objectives planned
-[] It ensures teams can work on anything they want
-[] It ensures teams do not have dependencies
+[ ] It allows leaders to get their objectives planned
+[ ] It ensures teams can work on anything they want
+[ ] It ensures teams do not have dependencies
 [X] It aligns ART demand to capacity
 
 ## What is the primary focus of an Operational Value Stream?
