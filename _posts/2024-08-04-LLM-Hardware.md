@@ -8,6 +8,7 @@ toc: true
 
 * [OpenAI](https://openai.com/)
 * [LLama](https://llama.meta.com/) - Meta
+  * [Running Llama on Windows](https://llama.meta.com/docs/llama-everywhere/running-meta-llama-on-windows/)
 * [Flux](https://blackforestlabs.ai/) - Black forest labs
 
 ## Hardware Required Links
