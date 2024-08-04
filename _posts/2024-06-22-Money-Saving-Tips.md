@@ -17,6 +17,16 @@ toc: true
 * [hnry](https://hnry.co.nz/) - Accountant and Xero rolled into one. 1% or $1500 max per year.
 * [Dosh](https://www.dosh.nz/) - Visa Debit - 1% cash back! Zero fees. 4.8pa saving accounts. Simple signup.
 
+### Sharetrading
+
+* [Hatch](https://www.hatchinvest.nz/) - 
+* [Tiger Brokers](https://www.itiger.com/nz/?lang=en_US) - four free trades a month and no currency exchange fees.* Forever!
+* [Sharesies](https://www.sharesies.nz/)
+
+### Property Investing
+
+* [Opes Partners](https://www.opespartners.co.nz/) - [Youtube](https://www.youtube.com/@opes_partners) - Great property investments advice for NZ
+
 ## Utilities
 
 ### Mobile
