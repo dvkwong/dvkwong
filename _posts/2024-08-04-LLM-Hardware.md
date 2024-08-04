@@ -1,4 +1,5 @@
 ---
+title: LLM Hardware
 categories:
   - AI
 toc: true
@@ -10,6 +11,7 @@ toc: true
 * [LLama](https://llama.meta.com/) - Meta
   * [Running Llama on Windows](https://llama.meta.com/docs/llama-everywhere/running-meta-llama-on-windows/)
 * [Flux](https://blackforestlabs.ai/) - Black forest labs
+* [](https://cgdream.ai/)
 
 ## Hardware Required Links
 
@@ -32,3 +34,5 @@ toc: true
 ## Software to run locally
 
 * [Hugging Face](https://semaphoreci.com/blog/local-llm)
+
+

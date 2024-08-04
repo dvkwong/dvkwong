@@ -26,6 +26,7 @@ toc: true
 ### Property Investing
 
 * [Opes Partners](https://www.opespartners.co.nz/) - [Youtube](https://www.youtube.com/@opes_partners) - Great property investments advice for NZ
+  * [How to pay off your mortgage in 5-7 years](https://www.opespartners.co.nz/shows/pay-off-mortgage-in-5-7-years)
 
 ## Utilities
 
