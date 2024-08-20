@@ -11,4 +11,4 @@ The train is carrying cargo from the shipping port to the factories.
 
 ![Train image 2](/assets/posts/2024/Train2.jpg){: .align-right}
 
-[Kiwirail train](https://youtu.be/pHBwdMqfY9g?si=Sy5AQa25cyondfS1)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pHBwdMqfY9g?si=Sy5AQa25cyondfS1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
