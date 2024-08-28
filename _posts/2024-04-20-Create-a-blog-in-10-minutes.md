@@ -15,7 +15,7 @@ The blog will be hosted on [Github](https://github.com) and will use the [Minima
 # Why Github and Jekyll?
 
 * Github is the largest git source repository in the world and used by millions of people and organisations.
-* Github makes it simple and easy to host Jekyll websites.
+* Github makes it simple and easy to host Jekyll websites for FREE.
 * Jekyll uses markdown text files for writing blog posts using a text editor. [VSCode](https://code.visualstudio.com/) text editor recommended!
 * No pesky databases or complex coding bits to worry about!
 
@@ -31,19 +31,19 @@ The blog will be hosted on [Github](https://github.com) and will use the [Minima
 
 ![Github Settings Pages](/assets/posts/2024/GithubSettingsPages.png)
 
-5. After 30 seconds you will see your site will be live eg https://yourName.github.io/yourBlogName/
+5. After 30 seconds your site will be live @ https://yourName.github.io/yourBlogName/
 6. Done
 
-# Updating your blog
+# 2 options for updating your blog
 
-## Edit from Github (easiest)
+## Option 1: Edit from Github (easiest)
 
 1. On Github go to the repository created above.
 2. Under code look at the list of files and find the `_posts` folder
 3. You will find some sample posts which you can edit or create a new post.
 4. Note you should name new posts with a date format eg yyyy-MM-dd-your-new-blog-post. Also use the `-` to seperate words.
 
-## Edit from your local pc (recommended)
+## Option 1: Edit from your local pc (recommended)
 
 1. Download and install [Git](https://git-scm.com/downloads)
 2. Download and install [VSCode](https://code.visualstudio.com/)
@@ -53,7 +53,7 @@ The blog will be hosted on [Github](https://github.com) and will use the [Minima
 
 ![Github Clone Repository](/assets/posts/2024/GithubCloneRepository.png)
 
-## Set git name and email address
+### Set git name and email address
 
 To push changes you must set your git name and email address. For your email I would recommend using your github private email address so that you don't get spammed. 
 
