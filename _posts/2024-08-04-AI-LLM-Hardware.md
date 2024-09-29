@@ -3,6 +3,7 @@ title: LLM Hardware
 categories:
   - AI
 toc: true
+last_modified_at: 2024-09-30
 ---
 
 ## Companies
@@ -34,4 +35,10 @@ toc: true
 
 * [Hugging Face](https://semaphoreci.com/blog/local-llm)
 
+## AI 
 
+### The Coming Wave: How Ai will change everything | FM Camp 2024 Keynote | Slovakia | IMM
+
+Aragorn (nicknamed MrMetaverse by his early audience)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gYKW_ZzD0vA?si=el5Te9ixPT-5DyLv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
