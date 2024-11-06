@@ -3,7 +3,7 @@ title: AI - LLMs - Hardware
 categories:
   - AI
 toc: true
-last_modified_at: 2024-09-30
+last_modified_at: 2024-11-06
 ---
 
 ## Companies
@@ -18,22 +18,27 @@ last_modified_at: 2024-09-30
 
 * [Hardware recommendations](https://www.hardware-corner.net/guides/computer-to-run-llama-ai-model/)
 
-| Type         | Item                                                                                                             | Price          |
-| ------------ | ---------------------------------------------------------------------------------------------------------------- | -------------- |
-| CPU          | AMD Ryzen 5 7600X R5 7600X 4.7 GHz 6-Core 12 [Aliexpress](https://www.aliexpress.com/item/1005006443010857.html) | $340           |
-| CPU          | Cooler	Noctua NH-D15                                                                                             | $119.95        |
-| Motherboard  | Asus PROART B650-CREATOR ATX AM5                                                                                 | $229.99        |
-| Memory       | G.Skill Flare X5 64 GB (2 x 32 GB) DDR5-5600 CL36                                                                | $114.99        |
-| Storage      | Samsung 980 Pro 1 TB M.2-2280 PCIe 4.0 X4 NVME                                                                   | $93.98         |
-| Video Card   | RTX 3090 24 GB Video Card (Secondhand)                                                                           | ~ $800 @ Ebay  |
-| Case         | Lian Li O11 Dynamic EVO XL                                                                                       | $234.99        |
-| Power Supply | Corsair HX1200 Platinum 1200 W 80+ Platinum                                                                      | $405.00        |
-| Case fans    | 5x be quiet! Pure Wings 2 87 CFM 120 mm Fan                                                                      | $54.50         |
-|              |                                                                                                                  | Total $2270.06 |
+| Type         | Item                                                           | Price           |
+| ------------ | -------------------------------------------------------------- | --------------- |
+| CPU          | Intel i9                                                       |                 |
+| Motherboard  | Erying                                                         |                 |
+| Memory       | Juhor 2 x 16GB GB DDR5-5600 CL36                               |                 |
+| Storage      | CF600 1 TB Colorfire Ssd Nvme M2                               |                 |
+| Video Card   | RTX 4090M 16 GB Video Card - Mobile GPU in Desktop form factor |                 |
+| Case         | ?                                                              |                 |
+| Power Supply | ?                                                              |                 |
+| Case fans    | 6x Fans with RGB                                               |                 |
+|              |                                                                | Total $2500 NZD |
+
+
+
+
 
 ## Software to run locally
 
 * [Hugging Face](https://semaphoreci.com/blog/local-llm)
+* [Hugging Face Tutorial](https://www.freecodecamp.org/news/get-started-with-hugging-face/)
+
 
 ## AI References
 
