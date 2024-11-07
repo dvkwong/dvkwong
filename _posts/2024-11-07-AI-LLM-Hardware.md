@@ -46,6 +46,11 @@ PC purchased from online from JD.com while in China for approx $2500 NZD, see li
 ![Nvidia 3](/assets/posts/2024/Nvidia3.png)
 ![Nvidia 2](/assets/posts/2024/Nvidia2.png)
 
+**GPU-Z**
+
+![GPU-Z Card](/assets/posts/2024/GPU-ZCard.gif)
+![GPU-Z Card](/assets/posts/2024/GPU-Z.gif)
+
 ## Software to run locally
 
 * [Hugging Face](https://semaphoreci.com/blog/local-llm)
