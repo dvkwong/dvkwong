@@ -9,14 +9,15 @@ last_modified_at: 2024-11-06
 ## Companies
 
 * [OpenAI](https://openai.com/)
+* [ollama](https://ollama.com/)
 * [LLama](https://llama.meta.com/) - Meta
   * [Running Llama on Windows](https://llama.meta.com/docs/llama-everywhere/running-meta-llama-on-windows/)
 * [Flux](https://blackforestlabs.ai/) - Black forest labs
-* [](https://cgdream.ai/)
+* [cgdream](https://cgdream.ai/)
 
 ## Hardware
 
-* [Hardware recommendations](https://www.hardware-corner.net/guides/computer-to-run-llama-ai-model/)
+PC purchased from online from JD.com while in China, see links below.
 
 | Type         | Item                                                                               | Price           |
 | ------------ | ---------------------------------------------------------------------------------- | --------------- |
@@ -36,7 +37,6 @@ last_modified_at: 2024-11-06
 ![Nvidia 1](/assets/posts/2024/Nvidia1.png)
 ![Nvidia 3](/assets/posts/2024/Nvidia3.png)
 ![Nvidia 2](/assets/posts/2024/Nvidia2.png)
-
 
 ## Software to run locally
 
@@ -68,3 +68,5 @@ Aragorn (nicknamed MrMetaverse by his early audience)
 ## Referenec Links
 
 * [JD Link to PC](https://3.cn/27-Ghwc0) - Note link may not work outside China
+
+![JD](/assets/posts/2024/jd-pc.jpeg)
