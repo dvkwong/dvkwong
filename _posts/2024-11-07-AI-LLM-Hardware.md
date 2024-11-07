@@ -41,6 +41,8 @@ PC purchased from online from JD.com while in China, see links below.
 * 175 W
 * PCI Express x16 GEN4
 
+> Note these cards require unofficial NVidia drivers to run eg [FrankenDrivers](https://github.com/arutar/FrankenDriver)
+
 ![Nvidia 1](/assets/posts/2024/Nvidia1.png)
 ![Nvidia 3](/assets/posts/2024/Nvidia3.png)
 ![Nvidia 2](/assets/posts/2024/Nvidia2.png)
