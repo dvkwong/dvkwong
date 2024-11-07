@@ -18,18 +18,18 @@ last_modified_at: 2024-11-06
 
 * [Hardware recommendations](https://www.hardware-corner.net/guides/computer-to-run-llama-ai-model/)
 
-| Type         | Item                                                           | Price           |
-| ------------ | -------------------------------------------------------------- | --------------- |
-| CPU          | Intel i9-14900KF                                               |                 |
-| Motherboard  | Erying Polestar MoTD HX G686B                                  |                 |
-| Chipset      | Z790                                                           |                 |
-| Memory       | Juhor 2 x 16GB GB DDR5-5600 CL36                               |                 |
-| Storage      | CF600 1 TB Colorfire Ssd Nvme M2                               |                 |
-| Video Card   | RTX 4090M 16 GB Video Card - Mobile GPU in Desktop form factor |                 |
-| Case         | Golden Field                                                   |                 |
-| Power Supply | ATX                                                            |                 |
-| Case fans    | 6x Fans with RGB                                               |                 |
-|              |                                                                | Total $2500 NZD |
+| Type         | Item                                                                               | Price           |
+| ------------ | ---------------------------------------------------------------------------------- | --------------- |
+| CPU          | Intel i9-14900KF                                                                   |                 |
+| Motherboard  | [Erying Polestar MoTD](https://www.erying.cc/products-detail/id-184.html) HX G686B |                 |
+| Chipset      | Z790                                                                               |                 |
+| Memory       | Juhor 2 x 16GB GB DDR5-5600 CL36                                                   |                 |
+| Storage      | CF600 1 TB Colorfire Ssd Nvme M2                                                   |                 |
+| Video Card   | RTX 4090M 16 GB Video Card - Mobile GPU in Desktop form factor                     |                 |
+| Case         | Golden Field                                                                       |                 |
+| Power Supply | ATX                                                                                |                 |
+| Case fans    | 6x Fans with RGB                                                                   |                 |
+|              |                                                                                    | Total $2500 NZD |
 
 ### NVidia Card Details
 
