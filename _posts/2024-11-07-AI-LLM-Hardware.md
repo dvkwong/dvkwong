@@ -34,6 +34,11 @@ PC purchased from online from JD.com while in China, see links below.
 
 ### NVidia Card Details
 
+* 16 GB GDDR6 Ram...
+* 9728 Cuda cores
+* 175 W
+* PCI Express x16 GEN4
+
 ![Nvidia 1](/assets/posts/2024/Nvidia1.png)
 ![Nvidia 3](/assets/posts/2024/Nvidia3.png)
 ![Nvidia 2](/assets/posts/2024/Nvidia2.png)
