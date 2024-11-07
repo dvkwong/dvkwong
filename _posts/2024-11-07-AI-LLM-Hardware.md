@@ -32,6 +32,8 @@ PC purchased from online from JD.com while in China, see links below.
 | Case fans    | 6x Fans with RGB                                                                   |                 |
 |              |                                                                                    | Total $2500 NZD |
 
+![EryingPC](/assets/posts/2024/EryingPC.jpeg)
+
 ### NVidia Card Details
 
 * 16 GB GDDR6 Ram...
