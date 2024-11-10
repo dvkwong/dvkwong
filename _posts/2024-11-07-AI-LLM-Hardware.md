@@ -21,7 +21,7 @@ PC purchased from online from JD.com while in China for approx $2500 NZD, see li
 
 | Type         | Item                                                                               |
 | ------------ | ---------------------------------------------------------------------------------- |
-| CPU          | Intel i9-14900KF                                                                   |
+| CPU          | Intel i9-14900HX                                                                   |
 | Motherboard  | [Erying Polestar MoTD](https://www.erying.cc/products-detail/id-184.html) HX G686B |
 | Chipset      | Z790                                                                               |
 | Memory       | Juhor 2 x 16GB GB DDR5-5600 CL36                                                   |
