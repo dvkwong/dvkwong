@@ -18,3 +18,7 @@ categories:
 [realfavicongenerator](https://realfavicongenerator.net/)
 
 [Unifi Configure IoT network](https://www.nodinrogers.com/post/2022-04-09-iot-different-vlan/)
+
+## Hardware
+
+* [Raytech](https://raytech.co.nz/) - iphone / ipad repair, reseller. Computer parts etc. 
