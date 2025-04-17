@@ -224,3 +224,5 @@ for (i = [0:len(tokens)-1]) {
     
 
 If you encounter issues (e.g., colors not rendering, printing challenges), need further tweaks (e.g., different colors, spacing, or resource tokens), or want a single token’s code, let me know with details. I can also adjust for different letter conventions (e.g., AA–CC instead of Za–Zc).
+
+<iframe id="vs_iframe" src="https://www.viewstl.com/?embedded&url=https%3A%2F%2Fdvkwong.com%2Fassets%2F3dModels%2FCatanNumberTokens5-6Players.3mf&bgcolor=transparent&color=gray&shading=flat&rotation=yes&edges=no&noborder=yes" style="border:0;margin:0;width:600px;height:600px;"></iframe>
