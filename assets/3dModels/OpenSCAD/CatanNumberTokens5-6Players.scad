@@ -4,16 +4,33 @@
 // Parametric design for 3D printing
 
 // Dimensions (in mm)
-token_diameter = 25; // Standard Catan token size
-token_height = 3; // Total thickness for stackability
+token_diameter = 25;
+// Dimensions (in mm)
+token_height = 3; 
+
 number_text_size = 8; // Size for number text
+numberFont = "Liberation Sans"; // [Aldo, Anton, Archivo Black, Asap, Bangers, Black Han Sans, Bubblegum Sans, Bungee, Changa One, Chewy, Concert One, Fruktur, Gochi Hand, Griffy, Inter, Inter Tight, Itim, Jockey One, Kanit, Kavoon, Komikazoom, Lato, Liberation Sans, Lilita One, Lobster, Lora, Luckiest Guy, Merriweather Sans, Merriweather, Mitr, Montserrat, Montserrat Alternates, Montserrat Subrayada, Nanum Pen, Norwester, Noto Emoji, Noto Sans, Nunito, Nunito Sans, Open Sans, Open Sans Condensed, Orbitron, Oswald, Palanquin Dark, Passion One, Patrick Hand, Paytone One, Permanent Marker, Playfair Display, Playfair Display SC, Plus Jakarta Sans, PoetsenOne, Poppins, Rakkas, Raleway, Raleway Dots, Roboto, Roboto Condensed, Roboto Flex, Roboto Mono, Roboto Serif, Roboto Slab, Rubik, Rubik 80s Fade, Rubik Beastly, Rubik Broken Fax, Rubik Bubbles, Rubik Burned, Rubik Dirt, Rubik Distressed, Rubik Doodle Shadow, Rubik Doodle Triangles, Rubik Gemstones, Rubik Glitch Pop, Rubik Glitch, Rubik Iso, Rubik Lines, Rubik Maps, Rubik Marker Hatch, Rubik Maze, Rubik Microbe, Rubik Mono One, Rubik Moonrocks, Rubik One, Rubik Pixels, Rubik Puddles, Rubik Scribble, Rubik Spray Paint, Rubik Storm, Rubik Vinyl, Rubik Wet Paint, Russo One, Saira Stencil One, Shrikhand, Source Sans 3, Spicy Rice, Squada One, Titan One, Ubuntu, Ubuntu Condensed, Ubuntu Mono, Ubuntu Sans, Ubuntu Sans Mono, Work Sans] // Selectable font list
+numberColor = "black";
+numberBackgroundColor = "Wheat";
+
 letter_text_size = 8; // Size for letter text
-text_height = 0.005; // Height of raised text and dots
-dot_diameter = 1.5; // Diameter of probability dots
-chamfer = 0.0; // Chamfer for edge to reduce elephant foot
-$fn = 50; // Resolution for smooth cylinders
-numberFont = "Liberation Sans";
-textFont = "Liberation Sans";
+textFont = "Liberation Sans";  // [Aldo, Anton, Archivo Black, Asap, Bangers, Black Han Sans, Bubblegum Sans, Bungee, Changa One, Chewy, Concert One, Fruktur, Gochi Hand, Griffy, Inter, Inter Tight, Itim, Jockey One, Kanit, Kavoon, Komikazoom, Lato, Liberation Sans, Lilita One, Lobster, Lora, Luckiest Guy, Merriweather Sans, Merriweather, Mitr, Montserrat, Montserrat Alternates, Montserrat Subrayada, Nanum Pen, Norwester, Noto Emoji, Noto Sans, Nunito, Nunito Sans, Open Sans, Open Sans Condensed, Orbitron, Oswald, Palanquin Dark, Passion One, Patrick Hand, Paytone One, Permanent Marker, Playfair Display, Playfair Display SC, Plus Jakarta Sans, PoetsenOne, Poppins, Rakkas, Raleway, Raleway Dots, Roboto, Roboto Condensed, Roboto Flex, Roboto Mono, Roboto Serif, Roboto Slab, Rubik, Rubik 80s Fade, Rubik Beastly, Rubik Broken Fax, Rubik Bubbles, Rubik Burned, Rubik Dirt, Rubik Distressed, Rubik Doodle Shadow, Rubik Doodle Triangles, Rubik Gemstones, Rubik Glitch Pop, Rubik Glitch, Rubik Iso, Rubik Lines, Rubik Maps, Rubik Marker Hatch, Rubik Maze, Rubik Microbe, Rubik Mono One, Rubik Moonrocks, Rubik One, Rubik Pixels, Rubik Puddles, Rubik Scribble, Rubik Spray Paint, Rubik Storm, Rubik Vinyl, Rubik Wet Paint, Russo One, Saira Stencil One, Shrikhand, Source Sans 3, Spicy Rice, Squada One, Titan One, Ubuntu, Ubuntu Condensed, Ubuntu Mono, Ubuntu Sans, Ubuntu Sans Mono, Work Sans] // Selectable font list
+textColor = "black";
+textBackgroundColor = "cyan";
+
+/* [AdditionalSettings] */
+fiveDotColor = "red";
+// Height of raised text, numbers and dots
+text_height = 0.005;
+
+// Diameter of probability dots
+dot_diameter = 1.5; 
+
+ // Chamfer for edge to reduce elephant foot
+chamfer = 0.0;
+
+// Resolution for smooth cylinders
+$fn = 50; 
 
 // Module: Half Chamfered Cylinder (for top or bottom half)
 module half_chamfered_cylinder(h, d, is_top) {
@@ -33,17 +50,17 @@ module half_chamfered_cylinder(h, d, is_top) {
 
 // Module: Number Token with Half-and-Half Color and Conditional Number/Dot Color
 module number_token(number, letter, dots) {
-    // Top half (light yellow)
-    color([1, 1, 0.8]) // Light yellow
+    // Top half
+    color(numberBackgroundColor) 
         translate([0, 0, token_height/2]) // Start at mid-height
             half_chamfered_cylinder(h=token_height/2, d=token_diameter, is_top=true);
     
-    // Bottom half (blue)
-    color([0, 0, 1]) // Blue
+    // Bottom half
+    color(textBackgroundColor)
         half_chamfered_cylinder(h=token_height/2, d=token_diameter, is_top=false);
     
     // Top side: Number (red for 5 dots, brown otherwise)
-    color(dots == 5 ? [1, 0, 0] : [0.65, 0.16, 0.16]) // Red for 5 dots, brown otherwise
+    color(dots == 5 ? fiveDotColor : numberColor) // Alt color for five dots
         translate([0, 2, token_height])
             linear_extrude(height=text_height)
                 text(str(number), size=number_text_size, font=numberFont,
@@ -51,7 +68,7 @@ module number_token(number, letter, dots) {
     
     // Top side: Probability dots (red for 5 dots, brown otherwise)
     if (dots > 0) {
-        color(dots == 5 ? [1, 0, 0] : [0.65, 0.16, 0.16]) // Red for 5 dots, brown otherwise
+            color(dots == 5 ? fiveDotColor : numberColor) // Alt color for five dots
             for (i = [0:dots-1]) {
                 translate([-1.5 * (dots-1) + i * 3, -6, token_height])
                     linear_extrude(height=text_height)
@@ -60,7 +77,7 @@ module number_token(number, letter, dots) {
     }
     
     // Bottom side: Black letter (protruding 0.5 mm downward)
-    color([0, 0, 0]) // Black
+    color(textColor)
         translate([0, 0, 0]) // Start at bottom
             rotate([180, 0, 0]) // Flip to face downward
                 translate([0, 0, text_height]) // Extrude downward
@@ -85,7 +102,18 @@ tokens = [
 ];
 
 // Generate Tokens with Spacing for Preview/Printing
+cols = ceil(sqrt(len(tokens)));
+rows = ceil(len(tokens) / cols);
+
+// Calculate total grid dimensions
+grid_width = cols * (token_diameter + 5) - 5; // Subtract extra spacing on the last column
+grid_height = rows * (token_diameter + 5) - 5; // Subtract extra spacing on the last row
+
 for (i = [0:len(tokens)-1]) {
-    translate([(i % 7) * (token_diameter + 5), (i / 7) * (token_diameter + 5), 0])
+    translate([
+        (i % cols) * (token_diameter + 5) - grid_width / 2,  // Center horizontally
+        floor(i / cols) * (token_diameter + 5) - grid_height / 2, // Center vertically
+        0
+    ])
         number_token(tokens[i][0], tokens[i][1], tokens[i][2]);
 }
