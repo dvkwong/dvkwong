@@ -42,8 +42,8 @@ Bottom_Background_Color = "cyan"; // [aqua,black,blue,cyan,fuchsia,green,gray,li
 // This color will be used for both the number and dots when there are 5 dots
 fiveDotColor = "red"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
 
-// Diameter of probability dots
-dot_diameter = 1.5; 
+// Diameter of probability dots (mm)
+dot_diameter = 2; 
 
 /* [Hidden] */
 // Minimum height of raised text, numbers and dots (mm)
@@ -85,7 +85,7 @@ module number_token(topText, bottomText, dots) {
     
     // Bottom side: Black letter (protruding 0.5 mm downward)
     color(Bottom_Font_Color)
-        rotate([180, 0, 0]) // Flip to face downward
+        rotate([0, 180, 0]) // Flip to face downward
             translate([0, 0, -text_height]) // Extrude downward
                 linear_extrude(height=text_height + text_protrusion_height) // 0.5 mm protrusion
                     text(bottomText, size=Bottom_Font_Size, font=Bottom_Font,
