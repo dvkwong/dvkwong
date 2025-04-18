@@ -64,15 +64,15 @@ module number_token(number, letter, dots) {
     // Top half
     color(numberBackgroundColor) 
         translate([0, 0, token_height/2]) // Start at mid-height
-            cylinder(h=token_height/2, d=token_diameter, center=true);
+            cylinder(h=token_height/2, d=token_diameter);
     
     // Bottom half
     color(textBackgroundColor)
-        cylinder(h=token_height/2, d=token_diameter, center=true);
+        cylinder(h=token_height/2, d=token_diameter);
     
     // Top side: Number (red for 5 dots, brown otherwise)
     color(dots == 5 ? fiveDotColor : numberColor) // Alt color for five dots
-        translate([0, 2, token_height / 2 - text_height])
+        translate([0, 2, token_height - text_height])
             linear_extrude(height=text_height + 0.2) // 0.2 mm protrusion
                 text(str(number), size=number_text_size, font=numberFont,
                      halign="center", valign="center", $fn=$fn);
@@ -91,8 +91,8 @@ module number_token(number, letter, dots) {
     color(textColor)
         //translate([0, 0, 0]) // Start at bottom
             rotate([180, 0, 0]) // Flip to face downward
-                translate([0, 0, token_height]) // Extrude downward
-                    linear_extrude(height=text_height + 0.2) // 0.5 mm protrusion
+                translate([0, 0, -(text_height + 0.4)]) // Extrude downward
+                    linear_extrude(height=text_height + 0.41) // 0.5 mm protrusion
                         text(letter, size=letter_text_size, font=textFont,
                              halign="center", valign="center", $fn=$fn);
 }
