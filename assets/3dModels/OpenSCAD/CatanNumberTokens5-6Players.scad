@@ -54,45 +54,26 @@ fiveDotColor = "red";
 dot_diameter = 1.5; 
 
 // Height of raised text, numbers and dots
-text_height = 0.02;
-
- // Chamfer for edge to reduce elephant foot
-chamfer = 0.0;
+text_height = 0.4;
 
 // Resolution for smooth cylinders
 $fn = 50; 
-
-// Module: Half Chamfered Cylinder (for top or bottom half)
-module half_chamfered_cylinder(h, d, is_top) {
-    difference() {
-        cylinder(h=h, d=d, $fn=$fn);
-        if (is_top) {
-            // Top chamfer (for top half)
-            translate([0, 0, h-chamfer])
-                cylinder(h=chamfer+0.01, d1=d, d2=d-chamfer*2, $fn=$fn);
-        } else {
-            // Bottom chamfer (for bottom half)
-            translate([0, 0, -0.01])
-                cylinder(h=chamfer+0.01, d1=d-chamfer*2, d2=d, $fn=$fn);
-        }
-    }
-}
 
 // Module: Number Token with Half-and-Half Color and Conditional Number/Dot Color
 module number_token(number, letter, dots) {
     // Top half
     color(numberBackgroundColor) 
         translate([0, 0, token_height/2]) // Start at mid-height
-            half_chamfered_cylinder(h=token_height/2, d=token_diameter, is_top=true);
+            cylinder(h=token_height/2, d=token_diameter, center=true);
     
     // Bottom half
     color(textBackgroundColor)
-        half_chamfered_cylinder(h=token_height/2, d=token_diameter, is_top=false);
+        cylinder(h=token_height/2, d=token_diameter, center=true);
     
     // Top side: Number (red for 5 dots, brown otherwise)
     color(dots == 5 ? fiveDotColor : numberColor) // Alt color for five dots
-        translate([0, 2, token_height])
-            linear_extrude(height=text_height)
+        translate([0, 2, token_height / 2 - text_height])
+            linear_extrude(height=text_height + 0.2) // 0.2 mm protrusion
                 text(str(number), size=number_text_size, font=numberFont,
                      halign="center", valign="center", $fn=$fn);
     
@@ -100,18 +81,18 @@ module number_token(number, letter, dots) {
     if (dots > 0) {
             color(dots == 5 ? fiveDotColor : numberColor) // Alt color for five dots
             for (i = [0:dots-1]) {
-                translate([-1.5 * (dots-1) + i * 3, -6, token_height])
-                    linear_extrude(height=text_height)
+                translate([-1.5 * (dots-1) + i * 3, -6, token_height -text_height])
+                    linear_extrude(height=text_height +0.2)
                         circle(d=dot_diameter, $fn=20);
             }
     }
     
     // Bottom side: Black letter (protruding 0.5 mm downward)
     color(textColor)
-        translate([0, 0, 0]) // Start at bottom
+        //translate([0, 0, 0]) // Start at bottom
             rotate([180, 0, 0]) // Flip to face downward
-                translate([0, 0, text_height]) // Extrude downward
-                    linear_extrude(height=text_height) // 0.5 mm protrusion
+                translate([0, 0, token_height]) // Extrude downward
+                    linear_extrude(height=text_height + 0.2) // 0.5 mm protrusion
                         text(letter, size=letter_text_size, font=textFont,
                              halign="center", valign="center", $fn=$fn);
 }
