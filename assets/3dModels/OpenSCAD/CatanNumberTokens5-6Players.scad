@@ -1,8 +1,8 @@
 // Settlers of Catan Number Tokens for 5-6 Player Extension
 // Modified: Token body half light yellow (top), half blue (bottom); Letters (black) on bottom, Numbers/Dots (brown, or red for 5 dots) on top
-// Changes: Red numbers/dots for tokens with 5 dots, half-and-half color, fixed letter visibility, reduced number-dot spacing, equal protrusion
+
 // Parametric design for 3D printing. Custommize for any game!
-// Author: David Wong 18th April 2024
+// Author: David Wong 18th April 2025
 // https://github.com/dvkwong
 
 // Token Data: Number, Letter, Dots for Catan
@@ -21,28 +21,20 @@ tokens = [
     [12, "R",  1], [12, "Y",  1]
 ];
 
-// Dimensions (in mm)
-token_diameter = 25;
-// Dimensions (in mm)
-token_height = 3; 
+// (mm)
+Token_Diameter = 25; // [10:100]
+// (mm)
+Token_Height = 3; // [2:50]
 
-// Number Font Size
-number_text_size = 8; // Size for number text
-// Number font
-numberFont = "Black Han Sans"; // [Aldo, Anton, Archivo Black, Asap, Bangers, Black Han Sans, Bubblegum Sans, Bungee, Changa One, Chewy, Concert One, Fruktur, Gochi Hand, Griffy, Inter, Inter Tight, Itim, Jockey One, Kanit, Kavoon, Komikazoom, Lato, Liberation Sans, Lilita One, Lobster, Lora, Luckiest Guy, Merriweather Sans, Merriweather, Mitr, Montserrat, Montserrat Alternates, Montserrat Subrayada, Nanum Pen, Norwester, Noto Emoji, Noto Sans, Nunito, Nunito Sans, Open Sans, Open Sans Condensed, Orbitron, Oswald, Palanquin Dark, Passion One, Patrick Hand, Paytone One, Permanent Marker, Playfair Display, Playfair Display SC, Plus Jakarta Sans, PoetsenOne, Poppins, Rakkas, Raleway, Raleway Dots, Roboto, Roboto Condensed, Roboto Flex, Roboto Mono, Roboto Serif, Roboto Slab, Rubik, Rubik 80s Fade, Rubik Beastly, Rubik Broken Fax, Rubik Bubbles, Rubik Burned, Rubik Dirt, Rubik Distressed, Rubik Doodle Shadow, Rubik Doodle Triangles, Rubik Gemstones, Rubik Glitch Pop, Rubik Glitch, Rubik Iso, Rubik Lines, Rubik Maps, Rubik Marker Hatch, Rubik Maze, Rubik Microbe, Rubik Mono One, Rubik Moonrocks, Rubik One, Rubik Pixels, Rubik Puddles, Rubik Scribble, Rubik Spray Paint, Rubik Storm, Rubik Vinyl, Rubik Wet Paint, Russo One, Saira Stencil One, Shrikhand, Source Sans 3, Spicy Rice, Squada One, Titan One, Ubuntu, Ubuntu Condensed, Ubuntu Mono, Ubuntu Sans, Ubuntu Sans Mono, Work Sans] // Selectable font list
-// Number color
-numberColor = "black"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
-// Number background color
-numberBackgroundColor = "wheat"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
+Top_Font_Size = 8; // [2:50]
+Top_Font = "Black Han Sans"; // [Aldo, Anton, Archivo Black, Asap, Bangers, Black Han Sans, Bubblegum Sans, Bungee, Changa One, Chewy, Concert One, Fruktur, Gochi Hand, Griffy, Inter, Inter Tight, Itim, Jockey One, Kanit, Kavoon, Komikazoom, Lato, Liberation Sans, Lilita One, Lobster, Lora, Luckiest Guy, Merriweather Sans, Merriweather, Mitr, Montserrat, Montserrat Alternates, Montserrat Subrayada, Nanum Pen, Norwester, Noto Emoji, Noto Sans, Nunito, Nunito Sans, Open Sans, Open Sans Condensed, Orbitron, Oswald, Palanquin Dark, Passion One, Patrick Hand, Paytone One, Permanent Marker, Playfair Display, Playfair Display SC, Plus Jakarta Sans, PoetsenOne, Poppins, Rakkas, Raleway, Raleway Dots, Roboto, Roboto Condensed, Roboto Flex, Roboto Mono, Roboto Serif, Roboto Slab, Rubik, Rubik 80s Fade, Rubik Beastly, Rubik Broken Fax, Rubik Bubbles, Rubik Burned, Rubik Dirt, Rubik Distressed, Rubik Doodle Shadow, Rubik Doodle Triangles, Rubik Gemstones, Rubik Glitch Pop, Rubik Glitch, Rubik Iso, Rubik Lines, Rubik Maps, Rubik Marker Hatch, Rubik Maze, Rubik Microbe, Rubik Mono One, Rubik Moonrocks, Rubik One, Rubik Pixels, Rubik Puddles, Rubik Scribble, Rubik Spray Paint, Rubik Storm, Rubik Vinyl, Rubik Wet Paint, Russo One, Saira Stencil One, Shrikhand, Source Sans 3, Spicy Rice, Squada One, Titan One, Ubuntu, Ubuntu Condensed, Ubuntu Mono, Ubuntu Sans, Ubuntu Sans Mono, Work Sans] // Selectable font list
+Top_Font_Color = "black"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
+Top_Background_Color = "wheat"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
 
-// Text Font Size
-letter_text_size = 8; // Size for letter text
-// Text Font
-textFont = "Black Han Sans";  // [Aldo, Anton, Archivo Black, Asap, Bangers, Black Han Sans, Bubblegum Sans, Bungee, Changa One, Chewy, Concert One, Fruktur, Gochi Hand, Griffy, Inter, Inter Tight, Itim, Jockey One, Kanit, Kavoon, Komikazoom, Lato, Liberation Sans, Lilita One, Lobster, Lora, Luckiest Guy, Merriweather Sans, Merriweather, Mitr, Montserrat, Montserrat Alternates, Montserrat Subrayada, Nanum Pen, Norwester, Noto Emoji, Noto Sans, Nunito, Nunito Sans, Open Sans, Open Sans Condensed, Orbitron, Oswald, Palanquin Dark, Passion One, Patrick Hand, Paytone One, Permanent Marker, Playfair Display, Playfair Display SC, Plus Jakarta Sans, PoetsenOne, Poppins, Rakkas, Raleway, Raleway Dots, Roboto, Roboto Condensed, Roboto Flex, Roboto Mono, Roboto Serif, Roboto Slab, Rubik, Rubik 80s Fade, Rubik Beastly, Rubik Broken Fax, Rubik Bubbles, Rubik Burned, Rubik Dirt, Rubik Distressed, Rubik Doodle Shadow, Rubik Doodle Triangles, Rubik Gemstones, Rubik Glitch Pop, Rubik Glitch, Rubik Iso, Rubik Lines, Rubik Maps, Rubik Marker Hatch, Rubik Maze, Rubik Microbe, Rubik Mono One, Rubik Moonrocks, Rubik One, Rubik Pixels, Rubik Puddles, Rubik Scribble, Rubik Spray Paint, Rubik Storm, Rubik Vinyl, Rubik Wet Paint, Russo One, Saira Stencil One, Shrikhand, Source Sans 3, Spicy Rice, Squada One, Titan One, Ubuntu, Ubuntu Condensed, Ubuntu Mono, Ubuntu Sans, Ubuntu Sans Mono, Work Sans] // Selectable font list
-// Text Color
-textColor = "black"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
-// Text background color
-textBackgroundColor = "cyan"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
+Bottom_Font_Size = 8; // [2:50]
+Bottom_Font = "Black Han Sans";  // [Aldo, Anton, Archivo Black, Asap, Bangers, Black Han Sans, Bubblegum Sans, Bungee, Changa One, Chewy, Concert One, Fruktur, Gochi Hand, Griffy, Inter, Inter Tight, Itim, Jockey One, Kanit, Kavoon, Komikazoom, Lato, Liberation Sans, Lilita One, Lobster, Lora, Luckiest Guy, Merriweather Sans, Merriweather, Mitr, Montserrat, Montserrat Alternates, Montserrat Subrayada, Nanum Pen, Norwester, Noto Emoji, Noto Sans, Nunito, Nunito Sans, Open Sans, Open Sans Condensed, Orbitron, Oswald, Palanquin Dark, Passion One, Patrick Hand, Paytone One, Permanent Marker, Playfair Display, Playfair Display SC, Plus Jakarta Sans, PoetsenOne, Poppins, Rakkas, Raleway, Raleway Dots, Roboto, Roboto Condensed, Roboto Flex, Roboto Mono, Roboto Serif, Roboto Slab, Rubik, Rubik 80s Fade, Rubik Beastly, Rubik Broken Fax, Rubik Bubbles, Rubik Burned, Rubik Dirt, Rubik Distressed, Rubik Doodle Shadow, Rubik Doodle Triangles, Rubik Gemstones, Rubik Glitch Pop, Rubik Glitch, Rubik Iso, Rubik Lines, Rubik Maps, Rubik Marker Hatch, Rubik Maze, Rubik Microbe, Rubik Mono One, Rubik Moonrocks, Rubik One, Rubik Pixels, Rubik Puddles, Rubik Scribble, Rubik Spray Paint, Rubik Storm, Rubik Vinyl, Rubik Wet Paint, Russo One, Saira Stencil One, Shrikhand, Source Sans 3, Spicy Rice, Squada One, Titan One, Ubuntu, Ubuntu Condensed, Ubuntu Mono, Ubuntu Sans, Ubuntu Sans Mono, Work Sans] // Selectable font list
+Bottom_Font_Color = "black"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
+Bottom_Background_Color = "cyan"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
 
 /* [AdditionalSettings] */
 
@@ -54,49 +46,49 @@ fiveDotColor = "red"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,na
 dot_diameter = 1.5; 
 
 /* [Hidden] */
-// Minimum height of raised text, numbers and dots
+// Minimum height of raised text, numbers and dots (mm)
 text_height = 0.4;
 
-// Minimun height of text protrusion
+// Minimun height of text protrusion (mm)
 text_protrusion_height = 0.1; 
 
 // Resolution for smooth cylinders
 $fn = 50; 
 
 // Module: Number Token with Half-and-Half Color and Conditional Number/Dot Color
-module number_token(number, letter, dots) {
+module number_token(topText, bottomText, dots) {
     // Top half
-    color(numberBackgroundColor) 
-        translate([0, 0, token_height/2]) // Start at mid-height
-            cylinder(h=token_height/2, d=token_diameter);
+    color(Top_Background_Color) 
+        translate([0, 0, Token_Height/2]) // Start at mid-height
+            cylinder(h=Token_Height/2, d=Token_Diameter);
     
     // Bottom half
-    color(textBackgroundColor)
-        cylinder(h=token_height/2, d=token_diameter);
+    color(Bottom_Background_Color)
+        cylinder(h=Token_Height/2, d=Token_Diameter);
     
     // Top side: Number (red for 5 dots, brown otherwise)
-    color(dots == 5 ? fiveDotColor : numberColor) // Alt color for five dots
-        translate([0, 2, token_height - text_height])
+    color(dots == 5 ? fiveDotColor : Top_Font_Color) // Alt color for five dots
+        translate([0, 2, Token_Height - text_height])
             linear_extrude(height=text_height + text_protrusion_height) // 0.2 mm protrusion
-                text(str(number), size=number_text_size, font=numberFont,
+                text(str(topText), size=Top_Font_Size, font=Top_Font,
                      halign="center", valign="center", $fn=$fn);
     
     // Top side: Probability dots (red for 5 dots, brown otherwise)
     if (dots > 0) {
-            color(dots == 5 ? fiveDotColor : numberColor) // Alt color for five dots
+            color(dots == 5 ? fiveDotColor : Top_Font_Color) // Alt color for five dots
             for (i = [0:dots-1]) {
-                translate([-1.5 * (dots-1) + i * 3, -6, token_height -text_height])
+                translate([-1.5 * (dots-1) + i * 3, -6, Token_Height -text_height])
                     linear_extrude(height=text_height + text_protrusion_height)
                         circle(d=dot_diameter, $fn=20);
             }
     }
     
     // Bottom side: Black letter (protruding 0.5 mm downward)
-    color(textColor)
+    color(Bottom_Font_Color)
         rotate([180, 0, 0]) // Flip to face downward
             translate([0, 0, -text_height]) // Extrude downward
                 linear_extrude(height=text_height + text_protrusion_height) // 0.5 mm protrusion
-                    text(letter, size=letter_text_size, font=textFont,
+                    text(bottomText, size=Bottom_Font_Size, font=Bottom_Font,
                             halign="center", valign="center", $fn=$fn);
 }
 
@@ -105,13 +97,13 @@ cols = ceil(sqrt(len(tokens)));
 rows = ceil(len(tokens) / cols);
 
 // Calculate total grid dimensions
-grid_width = cols * (token_diameter + 5) - 5; // Subtract extra spacing on the last column
-grid_height = rows * (token_diameter + 5) - 5; // Subtract extra spacing on the last row
+grid_width = cols * (Token_Diameter + 5) - 5; // Subtract extra spacing on the last column
+grid_height = rows * (Token_Diameter + 5) - 5; // Subtract extra spacing on the last row
 
 for (i = [0:len(tokens)-1]) {
     translate([
-        (i % cols) * (token_diameter + 5) - grid_width / 2,  // Center horizontally
-        floor(i / cols) * (token_diameter + 5) - grid_height / 2, // Center vertically
+        (i % cols) * (Token_Diameter + 5) - grid_width / 2,  // Center horizontally
+        floor(i / cols) * (Token_Diameter + 5) - grid_height / 2, // Center vertically
         0
     ])
         number_token(tokens[i][0], tokens[i][1], tokens[i][2]);
