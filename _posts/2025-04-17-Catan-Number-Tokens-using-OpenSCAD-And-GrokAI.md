@@ -4,6 +4,16 @@ categories:
   - 3d Printing
 ---
 
+OpenSCAD is a simple programming language for creating 3d models. 
+
+I have used Grok to create Settler of Catan game tokens and published the file to 3MF and scad files to [Makerworld]()
+
+## Useful OpenSCAD links
+
+* [Cheatsheet](https://openscad.org/cheatsheet/)
+* [Customize Parameters](https://en.m.wikibooks.org/wiki/OpenSCAD_User_Manual/Customizer)
+* [Colors](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Transformations#color)
+
 **The below was all generated using Grok!!!**
 
 To modify the _Catan_ 5–6 player number tokens in OpenSCAD so that tokens with five probability dots (numbers 6 and 8) have their numbers and dots colored red instead of brown, we’ll update the number\_token module to conditionally apply the red color (\[1, 0, 0\]) for these tokens. The rest of the design remains unchanged: tokens are 25 mm in diameter, 3 mm thick, with a half-and-half body (light yellow top \[1, 1, 0.8\], blue bottom \[0, 0, 1\]), black letters (\[0, 0, 0\]) on the bottom, and chamfered edges. The numbers and dots (brown \[0.65, 0.16, 0.16\] for other tokens) and letters are raised 0.5 mm, with reduced number-dot spacing (y = -6) and fixed letter visibility.**Design Changes**
@@ -35,19 +45,66 @@ To modify the _Catan_ 5–6 player number tokens in OpenSCAD so that tokens with
 // Settlers of Catan Number Tokens for 5-6 Player Extension
 // Modified: Token body half light yellow (top), half blue (bottom); Letters (black) on bottom, Numbers/Dots (brown, or red for 5 dots) on top
 // Changes: Red numbers/dots for tokens with 5 dots, half-and-half color, fixed letter visibility, reduced number-dot spacing, equal protrusion
-// Parametric design for 3D printing
+// Parametric design for 3D printing. Custommize for any game!
+// Author: David Wong 18th April 2024
+// https://github.com/dvkwong
+
+// Token Data: Number, Letter, Dots for Catan
+// Based on 5-6 player extension (28 tokens)
+// Customize for any game!
+tokens = [
+    [2,  "A",  1], [2,  "Zb", 1],
+    [3,  "L",  2], [3,  "Za", 2], [3,  "E",  2],
+    [4,  "C",  3], [4,  "U",  3], [4,  "N",  3],
+    [5,  "B",  4], [5,  "W",  4], [5,  "T",  4],
+    [6,  "D",  5], [6,  "Zc", 5], [6,  "K",  5],
+    [8,  "G",  5], [8,  "M",  5], [8,  "O",  5],
+    [9,  "X",  4], [9,  "V",  4], [9,  "F",  4],
+    [10, "S",  3], [10, "J",  3], [10, "P",  3],
+    [11, "H",  2], [11, "Q",  2], [11, "I", 2], 
+    [12, "R",  1], [12, "Y",  1]
+];
 
 // Dimensions (in mm)
-token_diameter = 25; // Standard Catan token size
-token_height = 3; // Total thickness for stackability
+token_diameter = 25;
+// Dimensions (in mm)
+token_height = 3; 
+
+// Number Font Size
 number_text_size = 8; // Size for number text
+// Number font
+numberFont = "Black Han Sans"; // [Aldo, Anton, Archivo Black, Asap, Bangers, Black Han Sans, Bubblegum Sans, Bungee, Changa One, Chewy, Concert One, Fruktur, Gochi Hand, Griffy, Inter, Inter Tight, Itim, Jockey One, Kanit, Kavoon, Komikazoom, Lato, Liberation Sans, Lilita One, Lobster, Lora, Luckiest Guy, Merriweather Sans, Merriweather, Mitr, Montserrat, Montserrat Alternates, Montserrat Subrayada, Nanum Pen, Norwester, Noto Emoji, Noto Sans, Nunito, Nunito Sans, Open Sans, Open Sans Condensed, Orbitron, Oswald, Palanquin Dark, Passion One, Patrick Hand, Paytone One, Permanent Marker, Playfair Display, Playfair Display SC, Plus Jakarta Sans, PoetsenOne, Poppins, Rakkas, Raleway, Raleway Dots, Roboto, Roboto Condensed, Roboto Flex, Roboto Mono, Roboto Serif, Roboto Slab, Rubik, Rubik 80s Fade, Rubik Beastly, Rubik Broken Fax, Rubik Bubbles, Rubik Burned, Rubik Dirt, Rubik Distressed, Rubik Doodle Shadow, Rubik Doodle Triangles, Rubik Gemstones, Rubik Glitch Pop, Rubik Glitch, Rubik Iso, Rubik Lines, Rubik Maps, Rubik Marker Hatch, Rubik Maze, Rubik Microbe, Rubik Mono One, Rubik Moonrocks, Rubik One, Rubik Pixels, Rubik Puddles, Rubik Scribble, Rubik Spray Paint, Rubik Storm, Rubik Vinyl, Rubik Wet Paint, Russo One, Saira Stencil One, Shrikhand, Source Sans 3, Spicy Rice, Squada One, Titan One, Ubuntu, Ubuntu Condensed, Ubuntu Mono, Ubuntu Sans, Ubuntu Sans Mono, Work Sans] // Selectable font list
+// Number color
+numberColor = "black";
+// Number background color
+numberBackgroundColor = "Wheat";
+
+// Text Font Size
 letter_text_size = 8; // Size for letter text
-text_height = 0.005; // Height of raised text and dots
-dot_diameter = 1.5; // Diameter of probability dots
-chamfer = 0.0; // Chamfer for edge to reduce elephant foot
-$fn = 50; // Resolution for smooth cylinders
-numberFont = "Liberation Sans";
-textFont = "Liberation Sans";
+// Text Font
+textFont = "Black Han Sans";  // [Aldo, Anton, Archivo Black, Asap, Bangers, Black Han Sans, Bubblegum Sans, Bungee, Changa One, Chewy, Concert One, Fruktur, Gochi Hand, Griffy, Inter, Inter Tight, Itim, Jockey One, Kanit, Kavoon, Komikazoom, Lato, Liberation Sans, Lilita One, Lobster, Lora, Luckiest Guy, Merriweather Sans, Merriweather, Mitr, Montserrat, Montserrat Alternates, Montserrat Subrayada, Nanum Pen, Norwester, Noto Emoji, Noto Sans, Nunito, Nunito Sans, Open Sans, Open Sans Condensed, Orbitron, Oswald, Palanquin Dark, Passion One, Patrick Hand, Paytone One, Permanent Marker, Playfair Display, Playfair Display SC, Plus Jakarta Sans, PoetsenOne, Poppins, Rakkas, Raleway, Raleway Dots, Roboto, Roboto Condensed, Roboto Flex, Roboto Mono, Roboto Serif, Roboto Slab, Rubik, Rubik 80s Fade, Rubik Beastly, Rubik Broken Fax, Rubik Bubbles, Rubik Burned, Rubik Dirt, Rubik Distressed, Rubik Doodle Shadow, Rubik Doodle Triangles, Rubik Gemstones, Rubik Glitch Pop, Rubik Glitch, Rubik Iso, Rubik Lines, Rubik Maps, Rubik Marker Hatch, Rubik Maze, Rubik Microbe, Rubik Mono One, Rubik Moonrocks, Rubik One, Rubik Pixels, Rubik Puddles, Rubik Scribble, Rubik Spray Paint, Rubik Storm, Rubik Vinyl, Rubik Wet Paint, Russo One, Saira Stencil One, Shrikhand, Source Sans 3, Spicy Rice, Squada One, Titan One, Ubuntu, Ubuntu Condensed, Ubuntu Mono, Ubuntu Sans, Ubuntu Sans Mono, Work Sans] // Selectable font list
+// Text Color
+textColor = "black";
+// Text background color
+textBackgroundColor = "cyan";
+
+/* [AdditionalSettings] */
+
+// Color for 5 dots (red)
+// This color will be used for both the number and dots when there are 5 dots
+fiveDotColor = "red";
+
+// Diameter of probability dots
+dot_diameter = 1.5; 
+
+// Height of raised text, numbers and dots
+text_height = 0.02;
+
+ // Chamfer for edge to reduce elephant foot
+chamfer = 0.0;
+
+// Resolution for smooth cylinders
+$fn = 50; 
 
 // Module: Half Chamfered Cylinder (for top or bottom half)
 module half_chamfered_cylinder(h, d, is_top) {
@@ -67,17 +124,17 @@ module half_chamfered_cylinder(h, d, is_top) {
 
 // Module: Number Token with Half-and-Half Color and Conditional Number/Dot Color
 module number_token(number, letter, dots) {
-    // Top half (light yellow)
-    color([1, 1, 0.8]) // Light yellow
+    // Top half
+    color(numberBackgroundColor) 
         translate([0, 0, token_height/2]) // Start at mid-height
             half_chamfered_cylinder(h=token_height/2, d=token_diameter, is_top=true);
     
-    // Bottom half (blue)
-    color([0, 0, 1]) // Blue
+    // Bottom half
+    color(textBackgroundColor)
         half_chamfered_cylinder(h=token_height/2, d=token_diameter, is_top=false);
     
     // Top side: Number (red for 5 dots, brown otherwise)
-    color(dots == 5 ? [1, 0, 0] : [0.65, 0.16, 0.16]) // Red for 5 dots, brown otherwise
+    color(dots == 5 ? fiveDotColor : numberColor) // Alt color for five dots
         translate([0, 2, token_height])
             linear_extrude(height=text_height)
                 text(str(number), size=number_text_size, font=numberFont,
@@ -85,7 +142,7 @@ module number_token(number, letter, dots) {
     
     // Top side: Probability dots (red for 5 dots, brown otherwise)
     if (dots > 0) {
-        color(dots == 5 ? [1, 0, 0] : [0.65, 0.16, 0.16]) // Red for 5 dots, brown otherwise
+            color(dots == 5 ? fiveDotColor : numberColor) // Alt color for five dots
             for (i = [0:dots-1]) {
                 translate([-1.5 * (dots-1) + i * 3, -6, token_height])
                     linear_extrude(height=text_height)
@@ -94,7 +151,7 @@ module number_token(number, letter, dots) {
     }
     
     // Bottom side: Black letter (protruding 0.5 mm downward)
-    color([0, 0, 0]) // Black
+    color(textColor)
         translate([0, 0, 0]) // Start at bottom
             rotate([180, 0, 0]) // Flip to face downward
                 translate([0, 0, text_height]) // Extrude downward
@@ -103,24 +160,20 @@ module number_token(number, letter, dots) {
                              halign="center", valign="center", $fn=$fn);
 }
 
-// Token Data: Number, Letter, Dots
-// Based on 5-6 player extension (28 tokens)
-tokens = [
-    [2,  "A",  1], [2,  "Zb", 1],
-    [3,  "L",  2], [3,  "Za", 2], [3,  "E",  2],
-    [4,  "C",  3], [4,  "U",  3], [4,  "N",  3],
-    [5,  "B",  4], [5,  "W",  4], [5,  "T",  4],
-    [6,  "D",  5], [6,  "Zc", 5], [6,  "K",  5],
-    [8,  "G",  5], [8,  "M",  5], [8,  "O",  5],
-    [9,  "X",  4], [9,  "V",  4], [9,  "F",  4],
-    [10, "S",  3], [10, "J",  3], [10, "P",  3],
-    [11, "H",  2], [11, "Q",  2], [11, "I", 2], 
-    [12, "R",  1], [12, "Y",  1]
-];
-
 // Generate Tokens with Spacing for Preview/Printing
+cols = ceil(sqrt(len(tokens)));
+rows = ceil(len(tokens) / cols);
+
+// Calculate total grid dimensions
+grid_width = cols * (token_diameter + 5) - 5; // Subtract extra spacing on the last column
+grid_height = rows * (token_diameter + 5) - 5; // Subtract extra spacing on the last row
+
 for (i = [0:len(tokens)-1]) {
-    translate([(i % 7) * (token_diameter + 5), (i / 7) * (token_diameter + 5), 0])
+    translate([
+        (i % cols) * (token_diameter + 5) - grid_width / 2,  // Center horizontally
+        floor(i / cols) * (token_diameter + 5) - grid_height / 2, // Center vertically
+        0
+    ])
         number_token(tokens[i][0], tokens[i][1], tokens[i][2]);
 }
 ```
@@ -224,5 +277,3 @@ for (i = [0:len(tokens)-1]) {
     
 
 If you encounter issues (e.g., colors not rendering, printing challenges), need further tweaks (e.g., different colors, spacing, or resource tokens), or want a single token’s code, let me know with details. I can also adjust for different letter conventions (e.g., AA–CC instead of Za–Zc).
-
-<iframe id="vs_iframe" src="https://www.viewstl.com/?embedded&url=https%3A%2F%2Fdvkwong.com%2Fassets%2F3dModels%2FCatanNumberTokens5-6Players.3mf&bgcolor=transparent&color=gray&shading=flat&rotation=yes&edges=no&noborder=yes" style="border:0;margin:0;width:600px;height:600px;"></iframe>
