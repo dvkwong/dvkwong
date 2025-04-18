@@ -1,5 +1,5 @@
 // Settlers of Catan Number Tokens for 5-6 Player Extension
-// Modified: Token body half light yellow (top), half blue (bottom); Letters (black) on bottom, Numbers/Dots (brown, or red for 5 dots) on top
+// Token body half light yellow (top), half blue (bottom); Letters (black) on bottom, Numbers/Dots (brown, or red for 5 dots) on top
 
 // Parametric design for 3D printing. Custommize for any game!
 // Author: David Wong 18th April 2025
@@ -95,15 +95,15 @@ module number_token(topText, bottomText, dots) {
 // Generate Tokens with Spacing for Preview/Printing
 cols = ceil(sqrt(len(tokens)));
 rows = ceil(len(tokens) / cols);
-
+tokenSpacing = 2;
 // Calculate total grid dimensions
-grid_width = cols * (Token_Diameter + 5) - 5; // Subtract extra spacing on the last column
-grid_height = rows * (Token_Diameter + 5) - 5; // Subtract extra spacing on the last row
+grid_width = cols * (Token_Diameter + tokenSpacing) - tokenSpacing; // Subtract extra spacing on the last column
+grid_height = rows * (Token_Diameter + tokenSpacing) - tokenSpacing; // Subtract extra spacing on the last row
 
 for (i = [0:len(tokens)-1]) {
     translate([
-        (i % cols) * (Token_Diameter + 5) - grid_width / 2,  // Center horizontally
-        floor(i / cols) * (Token_Diameter + 5) - grid_height / 2, // Center vertically
+        (i % cols) * (Token_Diameter + tokenSpacing) - grid_width / 2 + (Token_Diameter / 2),  // Center horizontally
+        floor(i / cols) * (Token_Diameter + tokenSpacing) - grid_height / 2 + (Token_Diameter / 2), // Center vertically
         0
     ])
         number_token(tokens[i][0], tokens[i][1], tokens[i][2]);
