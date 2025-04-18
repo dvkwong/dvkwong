@@ -31,29 +31,29 @@ number_text_size = 8; // Size for number text
 // Number font
 numberFont = "Black Han Sans"; // [Aldo, Anton, Archivo Black, Asap, Bangers, Black Han Sans, Bubblegum Sans, Bungee, Changa One, Chewy, Concert One, Fruktur, Gochi Hand, Griffy, Inter, Inter Tight, Itim, Jockey One, Kanit, Kavoon, Komikazoom, Lato, Liberation Sans, Lilita One, Lobster, Lora, Luckiest Guy, Merriweather Sans, Merriweather, Mitr, Montserrat, Montserrat Alternates, Montserrat Subrayada, Nanum Pen, Norwester, Noto Emoji, Noto Sans, Nunito, Nunito Sans, Open Sans, Open Sans Condensed, Orbitron, Oswald, Palanquin Dark, Passion One, Patrick Hand, Paytone One, Permanent Marker, Playfair Display, Playfair Display SC, Plus Jakarta Sans, PoetsenOne, Poppins, Rakkas, Raleway, Raleway Dots, Roboto, Roboto Condensed, Roboto Flex, Roboto Mono, Roboto Serif, Roboto Slab, Rubik, Rubik 80s Fade, Rubik Beastly, Rubik Broken Fax, Rubik Bubbles, Rubik Burned, Rubik Dirt, Rubik Distressed, Rubik Doodle Shadow, Rubik Doodle Triangles, Rubik Gemstones, Rubik Glitch Pop, Rubik Glitch, Rubik Iso, Rubik Lines, Rubik Maps, Rubik Marker Hatch, Rubik Maze, Rubik Microbe, Rubik Mono One, Rubik Moonrocks, Rubik One, Rubik Pixels, Rubik Puddles, Rubik Scribble, Rubik Spray Paint, Rubik Storm, Rubik Vinyl, Rubik Wet Paint, Russo One, Saira Stencil One, Shrikhand, Source Sans 3, Spicy Rice, Squada One, Titan One, Ubuntu, Ubuntu Condensed, Ubuntu Mono, Ubuntu Sans, Ubuntu Sans Mono, Work Sans] // Selectable font list
 // Number color
-numberColor = "black";
+numberColor = "black"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
 // Number background color
-numberBackgroundColor = "Wheat";
+numberBackgroundColor = "wheat"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
 
 // Text Font Size
 letter_text_size = 8; // Size for letter text
 // Text Font
 textFont = "Black Han Sans";  // [Aldo, Anton, Archivo Black, Asap, Bangers, Black Han Sans, Bubblegum Sans, Bungee, Changa One, Chewy, Concert One, Fruktur, Gochi Hand, Griffy, Inter, Inter Tight, Itim, Jockey One, Kanit, Kavoon, Komikazoom, Lato, Liberation Sans, Lilita One, Lobster, Lora, Luckiest Guy, Merriweather Sans, Merriweather, Mitr, Montserrat, Montserrat Alternates, Montserrat Subrayada, Nanum Pen, Norwester, Noto Emoji, Noto Sans, Nunito, Nunito Sans, Open Sans, Open Sans Condensed, Orbitron, Oswald, Palanquin Dark, Passion One, Patrick Hand, Paytone One, Permanent Marker, Playfair Display, Playfair Display SC, Plus Jakarta Sans, PoetsenOne, Poppins, Rakkas, Raleway, Raleway Dots, Roboto, Roboto Condensed, Roboto Flex, Roboto Mono, Roboto Serif, Roboto Slab, Rubik, Rubik 80s Fade, Rubik Beastly, Rubik Broken Fax, Rubik Bubbles, Rubik Burned, Rubik Dirt, Rubik Distressed, Rubik Doodle Shadow, Rubik Doodle Triangles, Rubik Gemstones, Rubik Glitch Pop, Rubik Glitch, Rubik Iso, Rubik Lines, Rubik Maps, Rubik Marker Hatch, Rubik Maze, Rubik Microbe, Rubik Mono One, Rubik Moonrocks, Rubik One, Rubik Pixels, Rubik Puddles, Rubik Scribble, Rubik Spray Paint, Rubik Storm, Rubik Vinyl, Rubik Wet Paint, Russo One, Saira Stencil One, Shrikhand, Source Sans 3, Spicy Rice, Squada One, Titan One, Ubuntu, Ubuntu Condensed, Ubuntu Mono, Ubuntu Sans, Ubuntu Sans Mono, Work Sans] // Selectable font list
 // Text Color
-textColor = "black";
+textColor = "black"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
 // Text background color
-textBackgroundColor = "cyan";
+textBackgroundColor = "cyan"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
 
 /* [AdditionalSettings] */
 
 // Color for 5 dots (red)
 // This color will be used for both the number and dots when there are 5 dots
-fiveDotColor = "red";
+fiveDotColor = "red"; // [aqua,black,blue,cyan,fuchsia,green,gray,lime,maroon,navy,olive,purple,red,silver,teal,wheat,white,yellow]
 
 // Diameter of probability dots
 dot_diameter = 1.5; 
 
-/* hidden */
+/* [Hidden] */
 // Minimum height of raised text, numbers and dots
 text_height = 0.4;
 
