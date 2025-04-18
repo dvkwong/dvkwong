@@ -53,8 +53,12 @@ fiveDotColor = "red";
 // Diameter of probability dots
 dot_diameter = 1.5; 
 
-// Height of raised text, numbers and dots
+/* hidden */
+// Minimum height of raised text, numbers and dots
 text_height = 0.4;
+
+// Minimun height of text protrusion
+text_protrusion_height = 0.1; 
 
 // Resolution for smooth cylinders
 $fn = 50; 
@@ -73,7 +77,7 @@ module number_token(number, letter, dots) {
     // Top side: Number (red for 5 dots, brown otherwise)
     color(dots == 5 ? fiveDotColor : numberColor) // Alt color for five dots
         translate([0, 2, token_height - text_height])
-            linear_extrude(height=text_height + 0.2) // 0.2 mm protrusion
+            linear_extrude(height=text_height + text_protrusion_height) // 0.2 mm protrusion
                 text(str(number), size=number_text_size, font=numberFont,
                      halign="center", valign="center", $fn=$fn);
     
@@ -82,19 +86,18 @@ module number_token(number, letter, dots) {
             color(dots == 5 ? fiveDotColor : numberColor) // Alt color for five dots
             for (i = [0:dots-1]) {
                 translate([-1.5 * (dots-1) + i * 3, -6, token_height -text_height])
-                    linear_extrude(height=text_height +0.2)
+                    linear_extrude(height=text_height + text_protrusion_height)
                         circle(d=dot_diameter, $fn=20);
             }
     }
     
     // Bottom side: Black letter (protruding 0.5 mm downward)
     color(textColor)
-        //translate([0, 0, 0]) // Start at bottom
-            rotate([180, 0, 0]) // Flip to face downward
-                translate([0, 0, -(text_height + 0.4)]) // Extrude downward
-                    linear_extrude(height=text_height + 0.41) // 0.5 mm protrusion
-                        text(letter, size=letter_text_size, font=textFont,
-                             halign="center", valign="center", $fn=$fn);
+        rotate([180, 0, 0]) // Flip to face downward
+            translate([0, 0, -text_height]) // Extrude downward
+                linear_extrude(height=text_height + text_protrusion_height) // 0.5 mm protrusion
+                    text(letter, size=letter_text_size, font=textFont,
+                            halign="center", valign="center", $fn=$fn);
 }
 
 // Generate Tokens with Spacing for Preview/Printing
