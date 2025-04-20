@@ -20,3 +20,11 @@ categories:
 ## Markdown
 
 * [Rich Text to Markdown](https://www.rich-text-to-markdown.com/) - Handy for converting AI answers to Markdown format
+
+## 3d Models
+
+* [Multiboard Storage](https://www.multiboard.io/)
+
+## Web
+
+* [Instant Domains](https://instantdomainsearch.com/) - checks availability and has a ai generator for available names
