@@ -28,3 +28,7 @@ categories:
 ## Web
 
 * [Instant Domains](https://instantdomainsearch.com/) - checks availability and has a ai generator for available names
+
+## Template
+
+* [Free Google Doc Templates](https://gdoc.io/resume-templates/business-resume-free-google-docs-template/)
