@@ -5,9 +5,9 @@ categories:
 
 Use chatgpt and specify to use the attached json snippet to apply 'glass with transparent and iridescent effects'
 
-![Surfer riding AI wave](../assets/posts/2025/AI-Surfer-Riding-AI-Wave.png/)
+![Surfer riding AI wave](/assets/posts/2025/AI-Surfer-Riding-AI-Wave.png/)
 
-![Piha Lion Rock](../assets/posts/2025/AI-Lion-Rock-Piha-Beach.png/)
+![Piha Lion Rock](/assets/posts/2025/AI-Lion-Rock-Piha-Beach.png/)
 
 ```json
 {
