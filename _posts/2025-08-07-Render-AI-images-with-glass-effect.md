@@ -5,7 +5,11 @@ categories:
 
 Use chatgpt and specify to use the attached json snippet to apply 'glass with transparent and iridescent effects'
 
+## Surfer Riding AI Wave
+
 ![Surfer riding AI wave](/assets/posts/2025/AI-Surfer-Riding-AI-Wave.png)
+
+## Lions Rock - Piha
 
 ![Piha Lion Rock](/assets/posts/2025/AI-Lion-Rock-Piha-Beach.png)
 
@@ -43,5 +47,7 @@ Use chatgpt and specify to use the attached json snippet to apply 'glass with tr
   }
 }
 ```
+
+## Keanu Riding AI Wave
 
 ![Keanu Riding AI Wave](/assets/posts/2025/AI-Surfer-Keanu-RidingAIWave.png)
