@@ -51,3 +51,7 @@ Use chatgpt and specify to use the attached json snippet to apply 'glass with tr
 ## Keanu Riding AI Wave
 
 ![Keanu Riding AI Wave](/assets/posts/2025/AI-Surfer-Keanu-RidingAIWave.png)
+
+## Keanu Ultra Wide 
+
+![Keanu Ultrawide](/assets/posts/2025/KeanuUltrawide.png)
