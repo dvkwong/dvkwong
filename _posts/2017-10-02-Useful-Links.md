@@ -3,7 +3,9 @@ categories:
   - Links
 ---
 
-[Odd Prints](https://www.oddprints.com/) - Create passport photos simply and free!!
+~~[Odd Prints](https://www.oddprints.com/) - Create passport photos simply and free!!~~ Now paid service.
+
+Best method to crop photos is using the IOS Photos app built in crop tool as it has aspect ratio presets including passport photo sizes. NZ is 3x4 ratio!
 
 [Futuristic Fonts](https://www.canva.com/learn/futuristic-fonts/)
 
@@ -15,7 +17,7 @@ categories:
 
 ## Hardware
 
-* [Raytech](https://raytech.co.nz/) - iphone / ipad repair, reseller. Computer parts etc. 
+* [Raytech](https://raytech.co.nz/) - iphone / ipad repair, reseller. Computer parts etc.
 
 ## Markdown
 
