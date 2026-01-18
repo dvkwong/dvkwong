@@ -3,6 +3,8 @@ categories:
   - Languages
 ---
 
+Charlie & Tom run [Kuki Learning](https://kukilearning.com/) and have some great resources on youtube for learning Cook Island Maori. Appreciate their work in helping preserve and promote the language.
+
 ## [145 - I am hot / cold](https://youtu.be/hZFoAxulMzY?si=nxcxhyZe6DSwJd61&t=69)
 
 * I am hot = Kua vera au/E vera toku
