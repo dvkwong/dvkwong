@@ -1,8 +1,7 @@
 ---
 categories:
   - AI
-head_scripts:
-  - https://cdn.jsdelivr.net/npm/mermaid@11.12.2/+esm
+mermaid: true
 ---
 
 [Lovable](https://lovable.dev/) is an AI coding assistant that helps you build web apps faster with AI-generated code. It is built on top of [Supabase](https://supabase.com/) and provides a no-code/low-code platform to create web applications quickly.
@@ -59,7 +58,7 @@ The final architecture of getaddresscsv.com is as follows:
 
 [Available icons](https://mermaid.ai/docs/icons/intro)
 
-<pre class="mermaid">
+```mermaid
 architecture-beta
 
     service cust(server)[Customer]
@@ -100,7 +99,7 @@ architecture-beta
     web{group}:B --> T:repo{group}
     functions{group}:B --> T:subscribe{group}
     functions{group}:T --> B:docker{group}
-</pre>
+```
 
 ## Cost overview
 
