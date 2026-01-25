@@ -24,6 +24,31 @@ Hello = Kia Orana (kee-ah or-ah-nah)
 * Thank you very much = Meitaki rahi (may-tah-kee rah-hee)
 * Please = Kōrero mai (koh-reh-roh my)
 
+
+## [3/4 - Saying "Good morning / bye"](https://youtu.be/kFViiyovWsg?si=2-BgnzGcoCf47tvN&t=77)
+
+* Good morning = Popongi manea, pronounced: [paw-paw-ngee, ma-nae-ah]
+'ngi' is pronounced similarly like the word 'knee'
+* Morning! = Popongi!
+
+* Goodbye = Aere rā (ah-eh-reh rah) (more formal)
+* Ka kite anō = See you again
+
+## [5 - Saying "Thank you"](https://youtu.be/hJ3UshvrXSU?si=GI8PTVyRMt-m4-kr)
+
+Thank you = meitaki, pronounced: [may-tar-key]
+Very much = ma'ata, pronounced: [ma-ah-tar]
+
+## Lesson 6 - Saying your name
+
+My name is... = Toku ingoa ko..., pronounced: [tor-coo, eh-ngaw, coh]
+
+
+## Lesson 6 - What's your name?
+
+What's your name? = Ko'ai to ingoa?, pronounced: [koh-ah-ee, tor, eh-ngaw-aw]
+
+
 ## [145 - I am hot / cold](https://youtu.be/hZFoAxulMzY?si=nxcxhyZe6DSwJd61&t=69)
 
 * I am hot = Kua vera au/E vera toku
