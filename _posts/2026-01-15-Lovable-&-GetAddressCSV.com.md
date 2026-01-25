@@ -1,7 +1,6 @@
 ---
 categories:
   - AI
-mermaid: true
 ---
 
 [Lovable](https://lovable.dev/) is an AI coding assistant that helps you build web apps faster with AI-generated code. It is built on top of [Supabase](https://supabase.com/) and provides a no-code/low-code platform to create web applications quickly.
