@@ -58,6 +58,14 @@ The final architecture of getaddresscsv.com is as follows:
 [Available icons](https://mermaid.ai/docs/icons/intro)
 
 ```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+```mermaid
 architecture-beta
 
     service cust(server)[Customer]
