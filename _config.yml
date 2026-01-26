@@ -65,14 +65,14 @@ author:
       url: "https://dvkwong.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/dvkwong"    
+      url: "https://github.com/dvkwong"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dvkwong"
-    
+
 defaults:
   # _posts
   - scope:
@@ -101,3 +101,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+after_footer_scripts:
+  - https://cdn.jsdelivr.net/npm/mermaid@11.12.2/dist/mermaid.js
+  - assets/js/mermaid.js
