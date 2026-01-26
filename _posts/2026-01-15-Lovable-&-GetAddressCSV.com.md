@@ -66,7 +66,7 @@ architecture-beta
 
     service db(logos:postgresql)[Postgres] in supabase
     service auth(logos:auth0)[Auth] in supabase
-    service functions(logos:aws-lambda)[Edge Functions] in supabase
+    service functions(icon:fa:building)[Edge Functions] in supabase
 
     group lovable(logos:lovable)[Lovable]
 
@@ -74,7 +74,6 @@ architecture-beta
     service domain(logos:aws-glacier)[Custom Domain] in lovable
 
     group github(logos:github-octocat)[github]
-
     service repo(server)[Repository] in github
     service actions(logos:aws-cloudtrail)[Actions] in github
 
