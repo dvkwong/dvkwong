@@ -102,6 +102,9 @@ tag_archive:
   type: liquid
   path: /tags/
 
+head_scripts:
+  - /assets/js/custom.js
+
 after_footer_scripts:
   - https://cdn.jsdelivr.net/npm/mermaid@11.12.2/dist/mermaid.js
   - assets/js/mermaid.js
