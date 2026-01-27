@@ -7,6 +7,12 @@ categories:
 
 Below is my experience with using it to build a simple web app getaddresscsv.com that allows users to upload a CSV of addresses and get back parsed addresses using [Libpostal](https://github.com/openvenues/libpostal).
 
+## What does getaddresscsv do?
+
+[GetAddressCSV.com](https://getaddresscsv.com/) is a simple web app that allows users to upload a CSV / Excel file containing addresses and get back a parsed version of the addresses that is split into components like street, city, state, postal code, country etc.
+
+It uses the Libpostal library to parse addresses from around the world. Libpostal is a C library for parsing addresses using statistical NLP methods so it understands all the quirks of addresses from different countries.
+
 ## Initial startup & first impressions
 
 The lovable interface is very simple and easy to use. I was able to setup and configure a simple web app in under 30 minutes with these components:
