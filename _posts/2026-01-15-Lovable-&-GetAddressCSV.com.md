@@ -56,47 +56,18 @@ My workflow also changed a bit and I preferred using vscode and copilot with Cla
 The final architecture of getaddresscsv.com is as follows:
 
 [Available icons](https://mermaid.ai/docs/icons/intro)
-
 ```mermaid
-architecture-beta
+flowchart TD
+    A((Customer)) --> B[Lovable GetAddressCSV Frontend Web React, TailwindCSS]
 
-    service cust(server)[Customer]
-
-    group supabase(logos:supabase-icon)[Supabase]
-
-    service db(logos:postgresql)[Postgres] in supabase
-    service auth(logos:auth0)[Auth] in supabase
-    service functions(icon:fa:building)[Edge Functions] in supabase
-
-    group lovable(logos:lovable)[Lovable]
-
-    service web(server)[Frontend Web] in lovable
-    service domain(logos:aws-glacier)[Custom Domain] in lovable
-
-    group github(logos:github-octocat)[github]
-    service repo(server)[Repository] in github
-    service actions(logos:aws-cloudtrail)[Actions] in github
-
-    group hetzner(logos:hetzner)[hetzner]
-
-    service vps(server)[VPS] in hetzner
-    service docker(logos:docker)[Docker Libpostal] in hetzner
-
-    group stripe(logos:stripe)[stripe]
-    service subscribe(server)[Subscriptions] in stripe
-
-    group cloudflare(logos:cloudflare)[cloudflare]
-    service dns(server)[DNS] in cloudflare
-    service domainreg(server)[Domain registar] in cloudflare
-
-    cust:R --> L:web
-    web{group}:R --> L:functions{group}
-    auth:R --> L:db
-
-    web{group}:T --> B:domainreg{group}
-    web{group}:B --> T:repo{group}
-    functions{group}:B --> T:subscribe{group}
-    functions{group}:T --> B:docker{group}
+    subgraph S[Supabase]
+        D[(Database Postgres)]
+        H[Auth]
+        E[Edge functions]
+    end
+    B --> S
+    E --> |HTTPS| F[Libpostal REST API hosted on Hetzner VPS]
+    E --> G[Stripe Subscriptions]
 ```
 
 ## Cost overview
@@ -108,6 +79,8 @@ _USD currency_
 * Supabase - Free plan is sufficient for small projects
 * Github copilot - $10 pm (LLMS incl Claude Opus 4.5)
 
+Total monthly cost - $19 USD
+
 ## Future plans
 
 * Consolidate services to docker hosting only on hetzner to reduce dependanies on lovable and supabase cloud.
@@ -116,6 +89,6 @@ _USD currency_
 
 ## Summary
 
-I am not expecting to make any money from getaddresscsv.com but it was a great learning experience using lovable to quickly prototype and build a web app with minimal coding. The integration with supabase and stripe made it easy to add auth and payments without much hassle.
+I am not expecting to make any revnue from this project but it was a fun learning experience to build a web app using lovable and supabase with minimal coding....
 
-I look forward to creating more projects using the latest AI tools.
+The integration with supabase and stripe made it easy to add auth and payments without much hassle. I look forward to creating more projects using the latest AI tools.
