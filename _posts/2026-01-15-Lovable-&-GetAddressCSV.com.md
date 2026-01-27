@@ -37,7 +37,7 @@ _If you are technical and want to have more control of the supabase cloud that l
 
 ## Migrating Lovable supabase project to your own supabase account
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jEBVpl1GBvQ?si=CIxQDqtWK_TaKWR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="280" height="160" src="https://www.youtube.com/embed/jEBVpl1GBvQ?si=CIxQDqtWK_TaKWR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Tips
 
@@ -70,7 +70,7 @@ flowchart TD
     E --> G[Stripe Subscriptions]
 ```
 
-## Cost overview
+## Cost and Time overview
 
 _USD currency_
 
@@ -80,6 +80,7 @@ _USD currency_
 * Github copilot - $10 pm (LLMS incl Claude Opus 4.5)
 
 Total monthly cost - $19 USD
+Total time to build - approx 25-30 hours over a few weeks, learning as I go.
 
 ## Future plans
 
