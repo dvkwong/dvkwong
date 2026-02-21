@@ -1,4 +1,7 @@
 ---
+title: "Azure Storage Useful Links"
+description: "A collection of useful links and resources for Azure Storage."
+pubDate: 2018-04-17
 categories:
   - Cloud
 tags:

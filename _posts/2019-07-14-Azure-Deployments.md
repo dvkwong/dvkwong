@@ -1,5 +1,7 @@
 ---
 title: Azure Deployments
+description: Useful links and resources for deploying applications to Azure.
+pubDate: 2019-07-14
 categories:
   - Cloud
 tags:

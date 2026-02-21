@@ -1,9 +1,12 @@
 ---
+title: "Career in IT"
+description: "Resources and links for starting a career in IT as a developer."
+pubDate: 2022-09-11
 categories:
     - Career
 tags:
     - Developer
-toc: true    
+toc: true
 ---
 
 # Learning

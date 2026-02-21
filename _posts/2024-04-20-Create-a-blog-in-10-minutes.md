@@ -1,4 +1,7 @@
 ---
+title: "Create a blog in 10 minutes"
+description: "A step-by-step guide to creating your own blog using Github and Jekyll."
+pubDate: 2024-04-20
 categories:
   - Coding
 tags:
@@ -8,7 +11,7 @@ toc: true
 
 > This guide is for people who have are comfortable with computers :)
 
-**Easily** create your own free blog in less than 10 mins! 
+**Easily** create your own free blog in less than 10 mins!
 
 The blog will be hosted on [Github](https://github.com) and will use the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) theme.
 
@@ -27,7 +30,7 @@ The blog will be hosted on [Github](https://github.com) and will use the [Minima
 
 ![Github Create Repository](/assets/posts/2024/GithubCreateRepository.png)
 
-4. Next go to Settings -> Pages and set the branch to `master` and `root` and click save. 
+4. Next go to Settings -> Pages and set the branch to `master` and `root` and click save.
 
 ![Github Settings Pages](/assets/posts/2024/GithubSettingsPages.png)
 
@@ -55,7 +58,7 @@ The blog will be hosted on [Github](https://github.com) and will use the [Minima
 
 ### Set git name and email address
 
-To push changes you must set your git name and email address. For your email I would recommend using your github private email address so that you don't get spammed. 
+To push changes you must set your git name and email address. For your email I would recommend using your github private email address so that you don't get spammed.
 
 ### Find private Github email address
 
@@ -79,7 +82,7 @@ Having your own personalised domain name means you can protect and manage your o
 Github allows you host your blog with its own custom domain name eg dvkwong.com and there are
  many companies that sell domain names for a nominal fee as low as $10 US to $30 US per year.
 
-I have used [Namecheap](https://www.namecheap.com/) (easier) in the past, however 
+I have used [Namecheap](https://www.namecheap.com/) (easier) in the past, however
 I am switching to [Cloudflare](https://www.cloudflare.com/) (advanced) as it is even cheaper due to no markups!
 
 ![Github Custom Domain](/assets/posts/2024/GithubCustomDomain.png)

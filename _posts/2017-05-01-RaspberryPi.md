@@ -1,5 +1,7 @@
 ---
 title: Raspberry PI
+description: Using a Raspberry PI to monitor temperature and display on OLED and Blynk app.
+pubDate: 2017-05-01
 categories:
   - IoT
 tags:
@@ -86,7 +88,7 @@ blynk-client 715f8cafe95f4a91bae319d0376caa8c
 
 ### Hardware requirements
 
-* LED 
+* LED
 * Resistor 330-500 ohm or there abouts
 * Breadboard
 * 2 x wire connectors Male to Female.
@@ -128,7 +130,7 @@ blynk-client 715f8cafe95f4a91bae319d0376caa8c
         blynk.virtualWrite(2, temp);
         blynk.virtualWrite(3, temp);
         blynk.virtualWrite(4, humidity);
-        
+
         console.log('Temperature:', temp + 'C');
         console.log('Humidity:   ', humidity + '%');
     }, 5000);

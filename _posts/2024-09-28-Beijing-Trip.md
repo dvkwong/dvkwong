@@ -1,4 +1,7 @@
 ---
+title: "Beijing Trip"
+description: "A collection of sights, food, and markets to explore in Beijing."
+pubDate: 2024-09-28
 categories:
   - Travel
 toc: true
@@ -17,11 +20,11 @@ toc: true
 * Hunting Culture Exchange Centre
 * Lama Temple
 
-# Food 
+# Food
 
 ## Brands
 
-* Heytea 
+* Heytea
 * Luckin
 
 # Markets

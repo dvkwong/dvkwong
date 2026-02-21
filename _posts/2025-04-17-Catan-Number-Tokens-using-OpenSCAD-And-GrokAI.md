@@ -1,10 +1,13 @@
 ---
+title: "Catan Number Tokens using OpenSCAD And GrokAI"
+description: "Creating Settler of Catan number tokens for 5-6 players using OpenSCAD and GrokAI."
+pubDate: 2025-04-17
 categories:
   - AI
   - 3d Printing
 ---
 
-OpenSCAD is a simple programming language for creating 3d models. 
+OpenSCAD is a simple programming language for creating 3d models.
 
 I used Grok to create Settler of Catan game tokens and published the file and 3MF and scad files to Makerworld. Printed using a Bambulabs P1S.
 

@@ -1,4 +1,7 @@
 ---
+title: "Reading Course on KiwiRail and Sustainability"
+description: "Insights from a reading course about KiwiRail's role in New Zealand's transport system and sustainability."
+pubDate: 2024-08-21
 categories:
   - Learning
 ---

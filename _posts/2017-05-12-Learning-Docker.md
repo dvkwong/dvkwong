@@ -1,4 +1,7 @@
 ---
+title: "Learning Docker"
+description: "Getting started with Docker and creating your own Docker image."
+pubDate: 2017-05-12
 categories:
   - OS
 tags:

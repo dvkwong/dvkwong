@@ -1,4 +1,7 @@
 ---
+title: Security Cameras Recommendations
+description: A list of recommended security cameras and manufacturers.
+pubDate: 2022-06-11
 categories:
     - Gadgets
 tags:

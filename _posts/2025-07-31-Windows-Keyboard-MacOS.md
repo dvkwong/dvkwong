@@ -1,4 +1,7 @@
 ---
+title: "Windows Keyboard on MacOS"
+description: "How to remap a Windows keyboard to work effectively on MacOS using Karabiner."
+pubDate: 2025-07-31
 categories:
   - Utilities
 ---

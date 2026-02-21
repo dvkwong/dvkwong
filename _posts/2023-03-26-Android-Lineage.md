@@ -1,9 +1,12 @@
 ---
+title: "Android Lineage"
+description: "Instructions and resources for installing LineageOS on Android devices."
+pubDate: 2023-03-26
 categories:
     - Firmware
 tags:
     - Lineage
-toc: true    
+toc: true
 ---
 
 

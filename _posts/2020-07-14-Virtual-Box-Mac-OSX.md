@@ -1,4 +1,7 @@
 ---
+title: "Virtual Box Mac OSX"
+description: "Instructions and settings to run Mac OSX in Virtual Box."
+pubDate: 2020-07-14
 categories:
   - OS
 tags:

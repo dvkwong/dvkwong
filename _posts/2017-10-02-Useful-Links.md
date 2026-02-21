@@ -1,4 +1,7 @@
 ---
+title: "Useful Links"
+description: "A collection of useful links and resources."
+pubDate: 2017-10-02
 categories:
   - Links
 ---

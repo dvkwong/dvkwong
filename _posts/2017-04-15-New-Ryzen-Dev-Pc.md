@@ -1,5 +1,7 @@
 ---
 title: Ryzen
+description: After many years of using a laptop I have decided to go back to a desktop pc.
+pubDate: 2017-04-15
 categories:
   - Hardware
 tags:
@@ -9,7 +11,7 @@ tags:
 
 After many years of using a laptop I have decided to go back to a desktop pc.
 
-My overriding decision for this was based mainly on everything being larger and faster for cheaper. Also I'm a sucker for more cores and AMD Ryzen's offerings and reviews looked really good. 
+My overriding decision for this was based mainly on everything being larger and faster for cheaper. Also I'm a sucker for more cores and AMD Ryzen's offerings and reviews looked really good.
 
 I had also got into the bad habit of having the laptop in front of the tv, so I was getting neck problems, and watching too much tv as you do.
 
@@ -44,8 +46,8 @@ As I am mainly developing I did not need top off the line although you may be mi
 
 #### LG 29" widescreen
 
-* At work I have 3 monitors, for home to save a little space I went with the LG widescreen as I can have 2 windows open side by side without too much scrolling. 
-* Love the inputs of DVI, HDMI and USB-C. The 
+* At work I have 3 monitors, for home to save a little space I went with the LG widescreen as I can have 2 windows open side by side without too much scrolling.
+* Love the inputs of DVI, HDMI and USB-C. The
 * I have a small standing desk so having the the monitor stand was essential to free up space.
 
 #### Graphics card

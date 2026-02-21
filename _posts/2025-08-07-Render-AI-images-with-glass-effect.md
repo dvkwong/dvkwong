@@ -1,4 +1,7 @@
 ---
+title: "Render AI images with glass effect"
+description: "Using AI to generate images with a glass effect by specifying detailed JSON parameters."
+pubDate: 2025-08-07
 categories:
   - AI
 ---
@@ -52,6 +55,6 @@ Use chatgpt and specify to use the attached json snippet to apply 'glass with tr
 
 ![Keanu Riding AI Wave](/assets/posts/2025/AI-Surfer-Keanu-RidingAIWave.png)
 
-## Keanu Ultra Wide 
+## Keanu Ultra Wide
 
 ![Keanu Ultrawide](/assets/posts/2025/KeanuUltrawide.png)

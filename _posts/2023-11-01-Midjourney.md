@@ -1,4 +1,7 @@
 ---
+title: "Midjourney Prompts"
+description: "A collection of prompts used in Midjourney to generate images."
+pubDate: 2023-11-01
 categories:
   - AI
 tags:

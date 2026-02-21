@@ -1,4 +1,7 @@
 ---
+title: "SAFe Product Owner Questions"
+description: "A set of questions and answers related to the SAFe Product Owner role."
+pubDate: 2024-07-15
 categories:
   - Training
 toc: true

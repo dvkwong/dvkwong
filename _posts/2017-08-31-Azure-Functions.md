@@ -1,8 +1,11 @@
 ---
+title: "Getting Started with Azure Functions"
+description: "An introduction to Azure Functions, serverless computing, and resources for development."
+pubDate: 2017-08-31
 categories:
   - Cloud
 tags:
-  - Azure  
+  - Azure
 ---
 
 ### Resources

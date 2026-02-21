@@ -1,4 +1,7 @@
 ---
+title: "Entity Framework Migrations"
+description: "A quick guide on how to use Entity Framework Migrations in your project."
+pubDate: 2019-07-07
 categories:
   - Coding
 tags:

@@ -1,10 +1,13 @@
 ---
+title: "Recommended Media"
+description: "A list of my recommended books, movies, authors, and podcasts."
+pubDate: 2024-01-03
 categories:
     - Links
 tags:
     - Movies
     - Books
-toc: true    
+toc: true
 ---
 
 Some of my favourite books and movies.

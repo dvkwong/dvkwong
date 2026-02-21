@@ -1,4 +1,7 @@
 ---
+title: "Money Saving Tips"
+description: "A collection of websites and tips to help save money on everyday expenses."
+pubDate: 2024-06-22
 categories:
   - Savings
 toc: true
@@ -19,7 +22,7 @@ toc: true
 
 ### Sharetrading
 
-* [Hatch](https://www.hatchinvest.nz/) - 
+* [Hatch](https://www.hatchinvest.nz/) -
 * [Tiger Brokers](https://www.itiger.com/nz/?lang=en_US) - four free trades a month and no currency exchange fees.* Forever!
 * [Sharesies](https://www.sharesies.nz/)
 
@@ -47,20 +50,20 @@ toc: true
 
 ### Pricematch
 
-* Mitre 10 and Bunnings price match and 15% off! Other retailers will also price match Briscoes, Noel Leemings, Warehouse, Harvey Norman, JB Hifi etc. 
+* Mitre 10 and Bunnings price match and 15% off! Other retailers will also price match Briscoes, Noel Leemings, Warehouse, Harvey Norman, JB Hifi etc.
 
 ### Apple subscriptions
 
 ![Apple Subscriptions](/assets/posts/2024/AppleSubscriptions.webp){: .align-right}
 
-* Apple mobile makes it easier to start and stop subscriptions eg Sky Sport Now, Prime TV, Disney etc. As we all know these services like to make it hard to cancel! 
+* Apple mobile makes it easier to start and stop subscriptions eg Sky Sport Now, Prime TV, Disney etc. As we all know these services like to make it hard to cancel!
 
 So as a pro tip with streaming services I like to:
 
 1. Signup for a month.
 2. Cancel subscription so it expires in a month.
 3. Watch what you want.
-4. Let it silently expire and see if anyone in household notices. 
+4. Let it silently expire and see if anyone in household notices.
 5. If they do you can re-subscribe quickly from Apple subscriptions.
 
 > Even if you don't have Apple cancelling subscriptions ahead of time is still a good tip

@@ -1,8 +1,9 @@
 ---
+title: "Libpostal Docker for Address Parsing"
+description: "Using Libpostal Docker image for parsing addresses in a containerized environment."
+pubDate: 2026-01-20
 categories:
   - AI
-tags:
-    - Addresses
 toc: true
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: AI - LLMs - Hardware
+description: "Details of hardware used to run local LLMs for AI applications."
+pubDate: 2024-11-07
 categories:
   - AI
 toc: true

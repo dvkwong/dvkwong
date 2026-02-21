@@ -1,5 +1,7 @@
 ---
 title: Funduino Nano Play Sounds
+description: Using a Funduino Nano to play sounds with a piezo element.
+pubDate: 2017-05-11
 categories:
   - IoT
 tags:

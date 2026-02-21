@@ -1,11 +1,14 @@
 ---
+title: "Orcon NF18ACV Voip with USG"
+description: "These are instructions for using a USG with an ISP's existing router with VOIP."
+pubDate: 2020-09-05
 categories:
   - ISP
 tags:
   - NF18ACV
 ---
 
-These are instructions for using a USG with an ISP's existing router with VOIP. 
+These are instructions for using a USG with an ISP's existing router with VOIP.
 
 1. Configure the USG to a differing ip and subnet eg 10.0.0.1 - 10.0.0.0/24 than your ISP routers usually 192.168.0.1. [More info](https://community.ui.com/questions/How-to-add-a-usg-behind-an-isps-modem-without-bridging/3e28876f-1ef6-44be-b9f0-e26f6a32854d)
 2. Set USG WAN to DHCP and clear the VLAN, plug into NF18ACV LAN port

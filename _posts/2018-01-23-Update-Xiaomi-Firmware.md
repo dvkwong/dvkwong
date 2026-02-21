@@ -1,9 +1,11 @@
 ---
 title: Update Xiaomi Firmware
+description: Steps to update Xiaomi phone firmware using Fastboot method.
+pubDate: 2018-01-23
 categories:
   - IoT
 tags:
-  - Xiaomi  
+  - Xiaomi
 ---
 
 [Fastboot method to update firmware](https://forum.xda-developers.com/showpost.php?p=72402783&postcount=15)
@@ -18,7 +20,7 @@ tags:
 ```cs
 // Put into a batch file if on windows
 fastboot flash dsp adspso.bin
-fastboot flash bluetooth BTFM.bin  
+fastboot flash bluetooth BTFM.bin
 fastboot flash cmnlib64 cmnlib64.mbn
 fastboot flash cmnlib64bak cmnlib64.mbn
 fastboot flash cmnlib cmnlib.mbn

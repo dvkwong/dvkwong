@@ -1,4 +1,7 @@
 ---
+title: "Barber Station"
+description: "A collection of useful links for various purposes."
+pubDate: 2024-09-29
 categories:
   - Tips
 ---

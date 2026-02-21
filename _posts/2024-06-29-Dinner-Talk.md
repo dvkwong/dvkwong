@@ -1,4 +1,7 @@
 ---
+title: "Dinner Talk"
+description: "Recipes and shop recommendations for dinner."
+pubDate: 2024-06-29
 categories:
   - Dinner
 toc: true
@@ -8,13 +11,13 @@ toc: true
 
 ### Pip's Orzo Salad
 
-1. Caramelise below ingrediants. 
+1. Caramelise below ingrediants.
 
 * 1 tablespoon `olive oil`
 * 2 tablespoons `balsamic vinegar`
 * 2 tablespoons `brown sugar`
 * 1 sliced `red onion`
-* 2 sliced `red peppers`. 
+* 2 sliced `red peppers`.
 
 2. Add to 250 grams cooked Orzo or rissoni pasta.
 3. Add flesh of `2 chopped tomatoes` with seeds removed.
@@ -32,7 +35,7 @@ toc: true
 For the best smoked fish!<br/>
 [47 Mayfair Place, Glen Innes](https://maps.app.goo.gl/X9tWnJeMtZuRGzMJ9)
 
-### [Nicola John's pharmacy](https://www.probiotics.co.nz/index.php?route=common/home) 
+### [Nicola John's pharmacy](https://www.probiotics.co.nz/index.php?route=common/home)
 
 For probiotics and other health remedies.<br/>
 [37 Mayfair Place, Glen Innes](https://maps.app.goo.gl/N4bpPSjXy4uoU1h87)
@@ -42,7 +45,7 @@ For probiotics and other health remedies.<br/>
 Thick cuts of meat ready for the BBQ eg Scotch Fillet, T-Bone, Tomahawks etc at reasonable prices.<br/>
 [232a Great South Road, Drury](https://maps.app.goo.gl/JjCE4FuNXzk4dfXf7)
 
-### [Franklin Country Meats](https://franklincountrymeats.com/) 
+### [Franklin Country Meats](https://franklincountrymeats.com/)
 
 A bit pricier than Drury Meats however they did sell Picanha (supplied by [Hellabies](https://wilsonhellaby.co.nz/))<br/>
 [187 Manukau Road, Pukekohe](https://maps.app.goo.gl/fhaUfVig8HXrC7JE8)

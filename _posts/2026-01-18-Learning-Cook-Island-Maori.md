@@ -1,8 +1,9 @@
 ---
+title: Learning Cook Island Maori
+description: "Basic phrases and greetings in Cook Island Maori to get you started."
+pubDate: 2026-01-18
 categories:
   - Languages
-tags:
-    - Cook Islands Maori
 toc: true
 ---
 

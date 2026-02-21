@@ -1,4 +1,7 @@
 ---
+title: "Lovable & GetAddressCSV.com"
+description: "Building a web app using Lovable and Supabase with Libpostal for address parsing."
+pubDate: 2026-01-15
 categories:
   - AI
 ---

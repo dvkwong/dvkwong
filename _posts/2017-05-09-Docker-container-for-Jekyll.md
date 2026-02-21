@@ -1,4 +1,7 @@
 ---
+title: "Using Docker Container for Jekyll Development"
+description: "Using Docker to run Jekyll for local development and testing."
+pubDate: 2017-05-09
 categories:
   - OS
 tags:
@@ -7,22 +10,22 @@ tags:
   - Jekyll
 ---
 
-[Jekyll](https://jekyllrb.com/) is a static website generator that converts markdown to html. 
+[Jekyll](https://jekyllrb.com/) is a static website generator that converts markdown to html.
 Jekyll is developed using Ruby and can be challenging to install required components.
 
-## Welcome [Docker](https://www.docker.com/)! 
+## Welcome [Docker](https://www.docker.com/)!
 
 Docker is a cross platform tool that allows applications to be run in an
 isolated environment called containers similar to a VM. Containers are much smaller and less
 cpu and memory intensive than VM's.
 
-The official [Jekyll container](https://github.com/jekyll/docker) comes setup with 
+The official [Jekyll container](https://github.com/jekyll/docker) comes setup with
 everything required to run Jekyll.
 
 ## Requirements
 
 1. Install [Docker](https://www.docker.com/)
-1. A Jekyll website or clone the [minimal mistakes](https://github.com/mmistakes/minimal-mistakes) or 
+1. A Jekyll website or clone the [minimal mistakes](https://github.com/mmistakes/minimal-mistakes) or
 [this](https://github.com/dvkwong/devint) Jekyll sites.
 
 ## Running the Jekyll Container
