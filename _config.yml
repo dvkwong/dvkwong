@@ -33,6 +33,7 @@ timezone: "Pacific/Auckland"
 
 include:
   - _pages
+  - ads.txt
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
